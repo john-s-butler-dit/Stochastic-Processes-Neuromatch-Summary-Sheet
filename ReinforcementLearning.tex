@@ -1,4 +1,4 @@
-\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial1.html}{Learning to Predict (W3D4T1)} }
+\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial1.html}{Learning to Predict } }
 \begin{subbox}{subbox}{Overview}
 \scriptsize
 Reinforcement Learning (RL) is a framework for defining and solving a learning problem where an animal or agent knows or infers the state of the world and then learns the value of the states and actions that can be taken in them, by receiving a reward signal. Importantly, reinforcement learning provides formal, optimal descriptions of learning first derived from studies of animal behavior and then validated when the formal quantities used in the model were observed in the brain in humans and animals. It is probably one of the most widely used computational approaches in neuroscience.
@@ -30,7 +30,7 @@ Here, we will learn how to estimate state-value functions in a classical conditi
 \end{textbox}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial1.html}{Learning to Predict (W3D4T1)} }
+\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial1.html}{Learning to Predict } }
 \begin{subbox}{subbox}{General concepts}
 \scriptsize
 
@@ -90,7 +90,7 @@ V(s_{t}) \leftarrow V(s_{t}) + \alpha \delta_{t}
 \end{textbox}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial1.html}{Learning to Predict (W3D4T1)} }
+\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial1.html}{Learning to Predict } }
 \begin{subbox}{subbox}{TD-learning with guaranteed rewards}
 \scriptsize
 
@@ -124,7 +124,7 @@ Dopamine neurons, which are thought to carry reward prediction errors \textit{in
 \end{textbox}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial1.html}{Learning to Predict (W3D4T1)} }
+\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial1.html}{Learning to Predict } }
 \begin{subbox}{subbox}{Learning Rates and Discount Factors}
 \scriptsize
 
@@ -160,7 +160,7 @@ can be obtained immediately.
 \end{textbox}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial1.html}{Learning to Predict (W3D4T1)} }
+\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial1.html}{Learning to Predict } }
 \begin{subbox}{subbox}{TD-learning with varying reward magnitudes}
 \scriptsize
 In the previous exercise, the environment was as simple as possible. On every trial, the CS predicted the same reward, at the same time, with 100\% certainty. In the next few exercises, we will make the environment more progressively more complicated and examine the TD-learner's behavior.
@@ -197,7 +197,7 @@ Earlier in the notebook, we saw that changing $\alpha$ had little effect on lear
 \end{textbox}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial1.html}{Learning to Predict (W3D4T1)} }
+\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial1.html}{Learning to Predict } }
 \begin{subbox}{subbox}{Summary}
 \scriptsize
 Here, we have developed a simple TD Learner and examined how its state representations and reward prediction errors evolve during training. By manipulating its environment and parameters ($\alpha$, $\gamma$), you developed an intuition for how it behaves. 
@@ -214,7 +214,7 @@ However, you may have noticed that something is missing. We carefully calculated
 %%%%%%%% TUTORIAL 2
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial2.html}{Learning to Act: Multi-Armed Bandits (W3D4T2)} }
+\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial2.html}{Learning to Act: Multi-Armed Bandits } }
 \begin{subbox}{subbox}{Multi-Armed Bandits}
 \scriptsize
 Consider the following learning problem. You are faced repeatedly with a choice among $k$ different options, or actions. After each choice you receive a reward signal in the form of a numerical value, where the larger value is the better. Your objective is to maximize the expected total reward over some time period, for example, over 1000 action selections, or time steps.
@@ -234,7 +234,7 @@ We will solve this \textit{optimization problem} with an \textit{agent}, in this
 \end{textbox}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial2.html}{Learning to Act: Multi-Armed Bandits (W3D4T2)} }
+\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial2.html}{Learning to Act: Multi-Armed Bandits } }
 \begin{subbox}{subbox}{ Choosing an Action}
 \scriptsize
 The first thing our agent needs to be able to do is choose which arm to pull. The strategy for choosing actions based on our expectations is called a *policy* (often denoted $\pi$). We could have a random policy -- just pick an arm at random each time -- though this doesn't seem likely to be capable of optimizing our reward. We want some intentionality, and to do that we need a way of describing our beliefs about the arms' reward potential. We do this with an action-value function
@@ -262,7 +262,7 @@ So far so good, but it can't be this easy. And, in fact, the greedy policy does 
 \end{textbox}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial2.html}{Learning to Act: Multi-Armed Bandits (W3D4T2)} }
+\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial2.html}{Learning to Act: Multi-Armed Bandits } }
 
 \begin{subbox}{subbox}{The Exploitation-Exploration Dilemma}
 \scriptsize
@@ -297,7 +297,7 @@ This is what we should expect, that the action with the largest value (action 1)
 \end{textbox}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial2.html}{Learning to Act: Multi-Armed Bandits (W3D4T2)} }
+\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial2.html}{Learning to Act: Multi-Armed Bandits } }
 
 \begin{subbox}{subbox}{Solving Multi-Armed Bandits}
 \scriptsize
@@ -325,7 +325,7 @@ However, this was just one choice of parameters. Perhaps there is a better combi
 \end{textbox}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial2.html}{Learning to Act: Multi-Armed Bandits (W3D4T2)} }
+\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial2.html}{Learning to Act: Multi-Armed Bandits } }
 
 \begin{subbox}{subbox}{Changing Epsilon and Alpha}
 \scriptsize
@@ -363,7 +363,7 @@ Again we see a balance between an effective learning rate. $\alpha=0.01$ is too 
 %%% TUTORIAL 3
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial3.html}{Learning to Act: Q-Learning (W3D4T3)} }
+\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial3.html}{Learning to Act: Q-Learning } }
 
 \begin{subbox}{subbox}{Overview}
 \scriptsize
@@ -395,22 +395,21 @@ Given these conditions, the maximum achievable reward is -11 (1 up, 9 right, 1 d
 \end{textbox}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial3.html}{Learning to Act: Q-Learning (W3D4T3)} }
+\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial3.html}{Learning to Act: Q-Learning } }
 
 \begin{subbox}{subbox}{Q-Learning}
 \scriptsize
 
 Now that we have our environment, how can we solve it? 
 
-One of the most famous algorithms for estimating action values (aka Q-values) is the Temporal Differences (TD) **control** algorithm known as *Q-learning* (Watkins, 1989). 
-
-\begin{equation}
-Q(s_t,a_t) \leftarrow Q(s_t,a_t) + \alpha \big(r_t + \gamma\max_{\limits{a}} Q(s_{t+1},a_{t+1}) - Q(s_t,a_t)\big)
-\end{equation}
+One of the most famous algorithms for estimating action values (aka Q-values) is the Temporal Differences (TD) control algorithm known as Q-learning (Watkins, 1989). 
+\begin{eqnarray*}
+Q(s_t,a_t) &\leftarrow& Q(s_t,a_t) + \\& & \alpha \big(r_t + \gamma\max_{\limits{a}} Q(s_{t+1},a_{t+1}) - Q(s_t,a_t)\big)
+\end{eqnarray*}
 
 where $Q(s,a)$ is the value function for action $a$ at state $s$, $\alpha$ is the learning rate, $r$ is the reward, and $\gamma$ is the temporal discount rate.
 
-The expression $r_t + \gamma\max_\limits{a} Q(s_{t+1},a_{t+1})$ is referred to as the TD target while the full expression
+The expression $r_t + \gamma\max_{\limits{a}} Q(s_{t+1},a_{t+1})$ is referred to as the TD target while the full expression
 
 \begin{equation}
 r_t + \gamma\max_{\limits{a}} Q(s_{t+1},a_{t+1}) - Q(s_t,a_t),
@@ -435,7 +434,7 @@ The top left is a representation of the Q-table itself, showing the values for d
 
 \begin{center}
     
-\includegraphics[scale=0.15]{Figures/RL/RL_Figure15.png}
+\includegraphics[scale=0.13]{Figures/RL/RL_Figure15.png}
 \end{center}
 
 
@@ -448,7 +447,7 @@ The top left is a representation of the Q-table itself, showing the values for d
 %%% TUTORIAL 4
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial4.html}{From Reinforcement Learning to Planning (W3D4T4)} }
+\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial4.html}{From Reinforcement Learning to Planning } }
 
 \begin{subbox}{subbox}{Model-based RL}
 \scriptsize
@@ -478,7 +477,7 @@ Now that we have our environment and task defined, how can we solve this using a
 \end{textbox}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial4.html}{From Reinforcement Learning to Planning (W3D4T4)} }
+\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial4.html}{From Reinforcement Learning to Planning } }
 
 \begin{subbox}{subbox}{ Dyna-Q}
 \scriptsize
@@ -492,7 +491,7 @@ There's one final detail about this algorithm: where does the simulated experien
 \end{textbox}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial4.html}{From Reinforcement Learning to Planning (W3D4T4)} }
+\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial4.html}{From Reinforcement Learning to Planning } }
 
 \begin{subbox}{subbox}{Dyna-Q Algorithm}
 \scriptsize
@@ -530,7 +529,7 @@ The Dyna-Q agent is able to solve the task quite quickly, achieving a consistent
 \end{textbox}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial4.html}{From Reinforcement Learning to Planning (W3D4T4)} }
+\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial4.html}{From Reinforcement Learning to Planning } }
 
 \begin{subbox}{subbox}{How much to plan?}
 \scriptsize
@@ -552,7 +551,7 @@ After an initial warm-up phase of the first 20 episodes, we should see that the 
 \end{textbox}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial4.html}{From Reinforcement Learning to Planning (W3D4T4)} }
+\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial4.html}{From Reinforcement Learning to Planning } }
 \begin{subbox}{subbox}{When the world changes...}
 \scriptsize
 
@@ -579,7 +578,7 @@ If all went well, we should see the Dyna-Q agent having already achieved near op
 \end{textbox}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial4.html}{From Reinforcement Learning to Planning (W3D4T4)} }
+\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D4_ReinforcementLearning/student/W3D4_Tutorial4.html}{From Reinforcement Learning to Planning } }
 \begin{subbox}{subbox}{Summary}
 \scriptsize
 

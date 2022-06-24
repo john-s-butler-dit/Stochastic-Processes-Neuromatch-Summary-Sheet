@@ -1,0 +1,100 @@
+\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D3_OptimalControl/student/W3D3_Tutorial1.html}{Optimal Control for Discrete States }   }
+\begin{subbox}{subbox}{Overview}
+\scriptsize
+Optimal Control combines ideas from the Hidden Dynamics lessons (which used Hidden Markov Models) with maximizing utility described in the Bayes day (which combined a posterior with a utility function). It also connects directly to later lessons in Reinforcement Learning, which learns how to control before you understand the world. In contrast, Optimal Control assumes that you already know how the world works.
+
+Optimal Control is a crucial model in motor neuroscience, because it provides a principled benchmark for how we expect an animal should move. It also is an important engineering method, used for brain-computer interfaces and clamping neurons to desired activity patterns.
+
+\end{subbox}
+
+\begin{subbox}{subbox}{Objective}
+\scriptsize
+Here, we will implement a \textbf{binary control} task: a Partially Observable Markov Decision Process (POMDP) that describes fishing. The agent (you) seeks reward from two fishing sites without directly observing where the school of fish is (yes, a group of fish is called a school!). This makes the world a Hidden Markov Model (HMM). Based on when and where you catch fish, you keep updating your belief about the fish location, i.e., the posterior of the fish given past observations. You should control your position to get the most fish while minimizing the cost of switching sides.
+
+You've already learned about stochastic dynamics, latent states, and measurements. These first exercises largely repeat your previous work. Now we introduce \textbf{actions}, based on the new concepts of \textbf{control, utility, and policy}. This general structure provides a foundational model for the brain's computations because it includes a perception-action loop where the animal can gather information, draw inferences about its environment, and select actions with the greatest benefit. \textit{How}, mechanistically, the neurons could actually implement these calculations is a separate question we don't address in this lesson.
+
+We will:
+\begin{itemize}
+    \item 
+ Use the Hidden Markov Models you learned about previously to model the world state.
+    \item  Use the observations (fish caught) to build beliefs (posterior distributions) about the fish location.
+    \item  Evaluate the quality of different control policies for choosing actions.
+    \item  Discover the policy that maximizes utility.
+\end{itemize}
+
+\end{subbox}
+\end{textbox}
+%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D3_OptimalControl/student/W3D3_Tutorial1.html}{Optimal Control for Discrete States }   }
+\begin{subbox}{subbox}{Analyzing the Problem}
+\scriptsize
+\textbf{Problem Setting}\\
+
+\textbf{1. State dynamics:} There are two possible locations for the fish: Left and Right. Secretly, at each time step, the fish may switch sides with a certain probability $p_{\rm sw} = 1 - p_{\rm stay}$. This is the binary switching model (\textit{Telegraph process}) that you've seen in Linear Systems . The fish location, $s^{\rm fish}$, is latent; you get measurements about it when you try to catch fish, like in Hidden Dynamics. This gives you a \textit{belief} or posterior probability of the current location given your history of measurements.\\
+
+\textbf{2. Actions}: Unlike past days, you can now \textbf{act} on the process! You may stay on your current location (Left or Right), or switch to the other side.\\
+
+\textbf{3. Rewards and Costs:} You get rewarded for each fish you catch (one fish is worth 1 "point"). If you're on the same side as the fish, you'll catch more, with probability $q_{\rm high}$ per discrete time step. Otherwise, you may still catch some fish with probability $q_{\rm low}$. \\
+
+You pay a price of $C$ points for switching to the other side. So you better decide wisely!
+
+\textbf{Maximizing Utility}\\
+
+To decide "wisely" and maximize your total utility (total points), you will follow a \textbf{policy} that prescribes what to do in any situation. Here the situation is determined by your location and your \textbf{belief} $b_t$ (posterior) about the fish location (remember that the fish location is a latent variable). 
+
+In optimal control theory, the belief is the posterior probability over the latent variable given all the past measurements. It can be shown that maximizing the expected utility with respect to this posterior is optimal.
+
+In our problem, the belief can be represented by a single number because the fish are either on the left or the right side. So we write: 
+
+\begin{equation}
+b_t = p(s^{\rm fish}_t = {\rm Right}\  |\  m_{0:t}, a_{0:t-1})
+\end{equation}
+
+where $m_{0:t}$ are the measurements and $a_{0:t-1}$ are the actions (stay or switch).
+
+Finally, we will parameterize the policy by a simple threshold on beliefs: when your belief that fish are on your current side falls below a threshold $\theta$, you switch to the other side.
+
+Here, you will discover that if you pick the right threshold, this simple policy happens to be optimal!
+
+\end{subbox}
+
+\end{textbox}
+%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{textbox}{\href{https://compneuro.neuromatch.io/tutorials/W3D3_OptimalControl/student/W3D3_Tutorial1.html}{Optimal Control for Discrete States }   }
+\begin{subbox}{subbox}{Analyzing the Problem}
+\scriptsize
+\textbf{Problem Setting}\\
+
+\textbf{1. State dynamics:} There are two possible locations for the fish: Left and Right. Secretly, at each time step, the fish may switch sides with a certain probability $p_{\rm sw} = 1 - p_{\rm stay}$. This is the binary switching model (\textit{Telegraph process}) that you've seen in Linear Systems . The fish location, $s^{\rm fish}$, is latent; you get measurements about it when you try to catch fish, like in Hidden Dynamics. This gives you a \textit{belief} or posterior probability of the current location given your history of measurements.\\
+
+\textbf{2. Actions}: Unlike past days, you can now \textbf{act} on the process! You may stay on your current location (Left or Right), or switch to the other side.\\
+
+\textbf{3. Rewards and Costs:} You get rewarded for each fish you catch (one fish is worth 1 "point"). If you're on the same side as the fish, you'll catch more, with probability $q_{\rm high}$ per discrete time step. Otherwise, you may still catch some fish with probability $q_{\rm low}$. \\
+
+You pay a price of $C$ points for switching to the other side. So you better decide wisely!
+
+\textbf{Maximizing Utility}\\
+
+To decide "wisely" and maximize your total utility (total points), you will follow a \textbf{policy} that prescribes what to do in any situation. Here the situation is determined by your location and your \textbf{belief} $b_t$ (posterior) about the fish location (remember that the fish location is a latent variable). 
+
+In optimal control theory, the belief is the posterior probability over the latent variable given all the past measurements. It can be shown that maximizing the expected utility with respect to this posterior is optimal.
+
+In our problem, the belief can be represented by a single number because the fish are either on the left or the right side. So we write: 
+
+\begin{equation}
+b_t = p(s^{\rm fish}_t = {\rm Right}\  |\  m_{0:t}, a_{0:t-1})
+\end{equation}
+
+where $m_{0:t}$ are the measurements and $a_{0:t-1}$ are the actions (stay or switch).
+
+Finally, we will parameterize the policy by a simple threshold on beliefs: when your belief that fish are on your current side falls below a threshold $\theta$, you switch to the other side.
+
+Here, you will discover that if you pick the right threshold, this simple policy happens to be optimal!
+
+\end{subbox}
+
+\end{textbox}
+%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%
