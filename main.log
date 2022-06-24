@@ -1,0 +1,4413 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.7)  20 JUN 2022 21:03
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count187
+\Gm@cntv=\count188
+\c@Gm@tempcnt=\count189
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks18
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2021/03/24 3.56 The Babel package
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2021/03/24 3.56 Babel common definitions
+\babel@savecnt=\count190
+\U@D=\dimen149
+\l@babelnohyphens=\language87
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count191
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language21) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language21) on input line 108.
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks19
+\pgfutil@tempdima=\dimen150
+\pgfutil@tempdimb=\dimen151
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box47
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
+))
+Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks20
+\pgfkeys@temptoks=\toks21
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks22
+))
+\pgf@x=\dimen152
+\pgf@y=\dimen153
+\pgf@xa=\dimen154
+\pgf@ya=\dimen155
+\pgf@xb=\dimen156
+\pgf@yb=\dimen157
+\pgf@xc=\dimen158
+\pgf@yc=\dimen159
+\pgf@xd=\dimen160
+\pgf@yd=\dimen161
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count192
+\c@pgf@countb=\count193
+\c@pgf@countc=\count194
+\c@pgf@countd=\count195
+\t@pgf@toka=\toks23
+\t@pgf@tokb=\toks24
+\t@pgf@tokc=\toks25
+\pgf@sys@id@count=\count196
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfsyssoftpath@smallbuffer@items=\count197
+\pgfsyssoftpath@bigbuffer@items=\count198
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen162
+\pgfmath@count=\count199
+\pgfmath@box=\box48
+\pgfmath@toks=\toks26
+\pgfmath@stack@operand=\toks27
+\pgfmath@stack@operation=\toks28
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count266
+)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@picminx=\dimen163
+\pgf@picmaxx=\dimen164
+\pgf@picminy=\dimen165
+\pgf@picmaxy=\dimen166
+\pgf@pathminx=\dimen167
+\pgf@pathmaxx=\dimen168
+\pgf@pathminy=\dimen169
+\pgf@pathmaxy=\dimen170
+\pgf@xx=\dimen171
+\pgf@xy=\dimen172
+\pgf@yx=\dimen173
+\pgf@yy=\dimen174
+\pgf@zx=\dimen175
+\pgf@zy=\dimen176
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@path@lastx=\dimen177
+\pgf@path@lasty=\dimen178
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@shorten@end@additional=\dimen179
+\pgf@shorten@start@additional=\dimen180
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfpic=\box49
+\pgf@hbox=\box50
+\pgf@layerbox@main=\box51
+\pgf@picture@serial@count=\count267
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgflinewidth=\dimen181
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@pt@x=\dimen182
+\pgf@pt@y=\dimen183
+\pgf@pt@temp=\dimen184
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowsep=\dimen185
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@max=\dimen186
+\pgf@sys@shading@range@num=\count268
+\pgf@shadingcount=\count269
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfexternal@startupbox=\box52
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodeparttextbox=\box53
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@nodesepstart=\dimen187
+\pgf@nodesepend=\dimen188
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen189
+\pgffor@skip=\dimen190
+\pgffor@stack=\toks29
+\pgffor@toks=\toks30
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@plot@mark@count=\count270
+\pgfplotmarksize=\dimen191
+)
+\tikz@lastx=\dimen192
+\tikz@lasty=\dimen193
+\tikz@lastxsaved=\dimen194
+\tikz@lastysaved=\dimen195
+\tikz@lastmovetox=\dimen196
+\tikz@lastmovetoy=\dimen197
+\tikzleveldistance=\dimen198
+\tikzsiblingdistance=\dimen199
+\tikz@figbox=\box54
+\tikz@figbox@bg=\box55
+\tikz@tempbox=\box56
+\tikz@tempbox@bg=\box57
+\tikztreelevel=\count271
+\tikznumberofchildren=\count272
+\tikznumberofcurrentchild=\count273
+\tikz@fig@count=\count274
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfmatrixcurrentrow=\count275
+\pgfmatrixcurrentcolumn=\count276
+\pgf@matrix@numberofcolumns=\count277
+)
+\tikz@expandcount=\count278
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count279
+\float@exts=\toks31
+\float@box=\box58
+\@float@everytoks=\toks32
+\@floatcapt=\box59
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks33
+\c@algorithm=\count280
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count281
+\c@ALG@rem=\count282
+\c@ALG@nested=\count283
+\ALG@tlm=\skip49
+\ALG@thistlm=\skip50
+\c@ALG@Lnr=\count284
+\c@ALG@blocknr=\count285
+\c@ALG@storecount=\count286
+\c@ALG@tmpcounter=\count287
+\ALG@tmplength=\skip51
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+code.tex
+File: pgflibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\arrowsize=\dimen256
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarysnakes.code.tex
+File: tikzlibrarysnakes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+
+Package pgf Warning: Snakes have been superseded by decorations. Please use the
+ decoration libraries instead of the snakes library on input line 14.
+
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathmorphing.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+\pgfdecoratedcompleteddistance=\dimen257
+\pgfdecoratedremainingdistance=\dimen258
+\pgfdecoratedinputsegmentcompleteddistance=\dimen259
+\pgfdecoratedinputsegmentremainingdistance=\dimen260
+\pgf@decorate@distancetomove=\dimen261
+\pgf@decorate@repeatstate=\count288
+\pgfdecorationsegmentamplitude=\dimen262
+\pgfdecorationsegmentlength=\dimen263
+)
+\tikz@lib@dec@box=\box60
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathmorphing.code.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathreplacing.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathreplacing.code.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.shapes.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.shapes.code.tex)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@layerbox@background=\box61
+\pgf@layerboxsaved@background=\box62
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)) (./cheatsheet-template.tex
+(/usr/local/texlive/2021/texmf-dist/tex/latex/raleway/raleway.sty
+Package: raleway 2016/12/03 v1.4 Matt McInerney’s Raleway family
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks34
+\XKV@tempa@toks=\toks35
+)
+\XKV@depth=\count289
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/ly1/ly1enc.def
+File: ly1enc.def 2009/07/22 v0.7 TeX 'n ANSI encoding (DPC/KB)
+Now handling font encoding LY1 ...
+... processing UTF-8 mapping file for font encoding LY1
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/ly1enc.dfu
+File: ly1enc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0237 (decimal 567)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+FB00 (decimal 64256)
+   defining Unicode char U+FB01 (decimal 64257)
+   defining Unicode char U+FB02 (decimal 64258)
+   defining Unicode char U+FB03 (decimal 64259)
+   defining Unicode char U+FB04 (decimal 64260)
+   defining Unicode char U+FB05 (decimal 64261)
+   defining Unicode char U+FB06 (decimal 64262)
+))))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/fontawesome/fontawesome.sty
+Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-ge
+neric.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-pd
+ftex.tex)) (/usr/local/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+Raleway-TLF on input
+ line 112.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/raleway/T1Raleway-TLF.fd
+File: T1Raleway-TLF.fd 2014/07/28 (autoinst) Font definitions for T1/Raleway-TL
+F.
+)
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 112.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen264
+\Hy@linkcounter=\count290
+\Hy@pagecounter=\count291
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
+nguages
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count292
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count293
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen265
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count294
+\Field@Width=\dimen266
+\Fld@charsize=\dimen267
+Package hyperref Info: Hyper figures OFF on input line 6075.
+Package hyperref Info: Link nesting OFF on input line 6080.
+Package hyperref Info: Hyper index ON on input line 6083.
+Package hyperref Info: backreferencing OFF on input line 6090.
+Package hyperref Info: Link coloring OFF on input line 6095.
+Package hyperref Info: Link coloring with OCG OFF on input line 6100.
+Package hyperref Info: PDF/A mode OFF on input line 6105.
+LaTeX Info: Redefining \ref on input line 6145.
+LaTeX Info: Redefining \pageref on input line 6149.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+\Hy@abspage=\count295
+\c@Item=\count296
+\c@Hfootnote=\count297
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+\Fld@listcount=\count298
+\c@bookmark@seq@number=\count299
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip52
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip53
+\enit@outerparindent=\dimen268
+\enit@toks=\toks36
+\enit@inbox=\box63
+\enit@count@id=\count300
+\enitdp@description=\count301
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-02-18 L3 programming layer (loader) 
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count302
+\l__pdf_internal_box=\box64
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-
+01.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.
+tex)))
+Package: lipsum 2021-03-03 v2.3 150 paragraphs of Lorem Ipsum dummy text
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+File: lipsum.ltd.tex 2021-03-03 v2.3 The Lorem ipsum dummy text
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count303
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count304
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count305
+\c@listtotal=\count306
+\c@listcount=\count307
+\c@liststart=\count308
+\c@liststop=\count309
+\c@citecount=\count310
+\c@citetotal=\count311
+\c@multicitecount=\count312
+\c@multicitetotal=\count313
+\c@instcount=\count314
+\c@maxnames=\count315
+\c@minnames=\count316
+\c@maxitems=\count317
+\c@minitems=\count318
+\c@citecounter=\count319
+\c@maxcitecounter=\count320
+\c@savedcitecounter=\count321
+\c@uniquelist=\count322
+\c@uniquename=\count323
+\c@refsection=\count324
+\c@refsegment=\count325
+\c@maxextratitle=\count326
+\c@maxextratitleyear=\count327
+\c@maxextraname=\count328
+\c@maxextradate=\count329
+\c@maxextraalpha=\count330
+\c@abbrvpenalty=\count331
+\c@highnamepenalty=\count332
+\c@lownamepenalty=\count333
+\c@maxparens=\count334
+\c@parenlevel=\count335
+\blx@tempcnta=\count336
+\blx@tempcntb=\count337
+\blx@tempcntc=\count338
+\blx@maxsection=\count339
+\blx@maxsegment@0=\count340
+\blx@notetype=\count341
+\blx@parenlevel@text=\count342
+\blx@parenlevel@foot=\count343
+\blx@sectionciteorder@0=\count344
+\blx@entrysetcounter=\count345
+\blx@biblioinstance=\count346
+\labelnumberwidth=\skip54
+\labelalphawidth=\skip55
+\biblabelsep=\skip56
+\bibitemsep=\skip57
+\bibnamesep=\skip58
+\bibinitsep=\skip59
+\bibparsep=\skip60
+\bibhang=\skip61
+\blx@bcfin=\read4
+\blx@bcfout=\write4
+\blx@langwohyphens=\language88
+\c@mincomprange=\count347
+\c@maxcomprange=\count348
+\c@mincompwidth=\count349
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex citestyle data model...
+Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count350
+\c@savedafterword=\count351
+\c@annotator=\count352
+\c@savedannotator=\count353
+\c@author=\count354
+\c@savedauthor=\count355
+\c@bookauthor=\count356
+\c@savedbookauthor=\count357
+\c@commentator=\count358
+\c@savedcommentator=\count359
+\c@editor=\count360
+\c@savededitor=\count361
+\c@editora=\count362
+\c@savededitora=\count363
+\c@editorb=\count364
+\c@savededitorb=\count365
+\c@editorc=\count366
+\c@savededitorc=\count367
+\c@foreword=\count368
+\c@savedforeword=\count369
+\c@holder=\count370
+\c@savedholder=\count371
+\c@introduction=\count372
+\c@savedintroduction=\count373
+\c@namea=\count374
+\c@savednamea=\count375
+\c@nameb=\count376
+\c@savednameb=\count377
+\c@namec=\count378
+\c@savednamec=\count379
+\c@translator=\count380
+\c@savedtranslator=\count381
+\c@shortauthor=\count382
+\c@savedshortauthor=\count383
+\c@shorteditor=\count384
+\c@savedshorteditor=\count385
+\c@labelname=\count386
+\c@savedlabelname=\count387
+\c@institution=\count388
+\c@savedinstitution=\count389
+\c@lista=\count390
+\c@savedlista=\count391
+\c@listb=\count392
+\c@savedlistb=\count393
+\c@listc=\count394
+\c@savedlistc=\count395
+\c@listd=\count396
+\c@savedlistd=\count397
+\c@liste=\count398
+\c@savedliste=\count399
+\c@listf=\count400
+\c@savedlistf=\count401
+\c@location=\count402
+\c@savedlocation=\count403
+\c@organization=\count404
+\c@savedorganization=\count405
+\c@origlocation=\count406
+\c@savedoriglocation=\count407
+\c@origpublisher=\count408
+\c@savedorigpublisher=\count409
+\c@publisher=\count410
+\c@savedpublisher=\count411
+\c@language=\count412
+\c@savedlanguage=\count413
+\c@origlanguage=\count414
+\c@savedoriglanguage=\count415
+\c@pageref=\count416
+\c@savedpageref=\count417
+\shorthandwidth=\skip62
+\shortjournalwidth=\skip63
+\shortserieswidth=\skip64
+\shorttitlewidth=\skip65
+\shortauthorwidth=\skip66
+\shorteditorwidth=\skip67
+\locallabelnumberwidth=\skip68
+\locallabelalphawidth=\skip69
+\localshorthandwidth=\skip70
+\localshortjournalwidth=\skip71
+\localshortserieswidth=\skip72
+\localshorttitlewidth=\skip73
+\localshortauthorwidth=\skip74
+\localshorteditorwidth=\skip75
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+\c@textcitecount=\count418
+\c@textcitetotal=\count419
+\c@textcitemaxnames=\count420
+\c@biburlbigbreakpenalty=\count421
+\c@biburlbreakpenalty=\count422
+\c@biburlnumpenalty=\count423
+\c@biburlucpenalty=\count424
+\c@biburllcpenalty=\count425
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count426
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count427
+\c@bbx:relatedtotal=\count428
+))
+Package biblatex Info: Trying to load citation style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.cbx' found.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/cbx/authoryear.cbx
+File: authoryear.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
+Package biblatex Info: Redefining autocite command 'footnote' on input line 31.
+
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2020/10/09 version 4.42 text color boxes
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks37
+\verbatim@line=\toks38
+\verbatim@in@stream=\read5
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks39
+)
+\tcb@titlebox=\box65
+\tcb@upperbox=\box66
+\tcb@lowerbox=\box67
+\tcb@phantombox=\box68
+\c@tcbbreakpart=\count429
+\c@tcblayer=\count430
+\c@tcolorbox@number=\count431
+\tcb@temp=\box69
+\tcb@temp=\box70
+\tcb@temp=\box71
+\tcb@temp=\box72
+\tcb@out=\write5
+\tcb@record@out=\write6
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '4.42'
+\c@tcbrastercolumn=\count432
+\c@tcbrasterrow=\count433
+\c@tcbraster=\count434
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '4.42'
+\tcb@waterbox=\box73
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.42'
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '4.42'
+(/usr/local/texlive/2021/texmf-dist/tex/generic/oberdiek/pdfcol.sty
+Package: pdfcol 2019/12/29 v1.6 Handle new color stacks for pdfTeX (HO)
+)
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box74
+\tcb@totalupperbox=\box75
+\tcb@totallowerbox=\box76
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '4.42'
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '4.42'
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip76
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks40
+\ex@=\dimen269
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen270
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count435
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count436
+\leftroot@=\count437
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count438
+\DOTSCASE@=\count439
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box77
+\strutbox@=\box78
+\big@size=\dimen271
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count440
+\c@MaxMatrixCols=\count441
+\dotsspace@=\muskip21
+\c@parentequation=\count442
+\dspbrk@lvl=\count443
+\tag@help=\toks41
+\row@=\count444
+\column@=\count445
+\maxfields@=\count446
+\andhelp@=\toks42
+\eqnshift@=\dimen272
+\alignsep@=\dimen273
+\tagshift@=\dimen274
+\tagwidth@=\dimen275
+\totwidth@=\dimen276
+\lineht@=\dimen277
+\@envbody=\toks43
+\multlinegap=\skip77
+\multlinetaggap=\skip78
+\mathdisplay@stack=\toks44
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '4.42'
+\tcbfitdim=\dimen278
+\tcb@lowerfitdim=\dimen279
+\tcb@upperfitdim=\dimen280
+\tcb@cur@hbadness=\count447
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
+Library (tcolorbox): 'tcbxparse.code.tex' version '4.42'
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.te
+x
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '4.42'
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '4.42'
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count448
+\lst@gtempboxa=\box79
+\lst@token=\toks45
+\lst@length=\count449
+\lst@currlwidth=\dimen281
+\lst@column=\count450
+\lst@pos=\count451
+\lst@lostspace=\dimen282
+\lst@width=\dimen283
+\lst@newlines=\count452
+\lst@lineno=\count453
+\lst@maxwidth=\dimen284
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count454
+\lst@skipnumbers=\count455
+\lst@framebox=\box80
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.te
+x
+Library (tcolorbox): 'tcblistingscore.code.tex' version '4.42'
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '4.42'
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+))
+\c@tcblisting=\count456
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
+Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '4.42'
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '4.42'
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '4.42'
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings
+.code.tex
+File: pgflibraryfadings.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '4.42'
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcbminted.code.tex
+Library (tcolorbox): 'tcbminted.code.tex' version '4.42'
+(/usr/local/texlive/2021/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2021/01/20 v3.7 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count457
+\FV@InFile=\read6
+\FV@TabBox=\box81
+\c@FancyVerbLine=\count458
+\FV@StepNumber=\count459
+\FV@OutFile=\write7
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count460
+\output=\toks46
+\linenoprevgraf=\count461
+\linenumbersep=\dimen285
+\linenumberwidth=\dimen286
+\c@linenumber=\count462
+\c@pagewiselinenumber=\count463
+\c@LN@truepage=\count464
+\c@internallinenumber=\count465
+\c@internallinenumbers=\count466
+\quotelinenumbersep=\dimen287
+\bframerule=\dimen288
+\bframesep=\dimen289
+\bframebox=\box82
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\c@FV@TrueTabGroupLevel=\count467
+\c@FV@TrueTabCounter=\count468
+\FV@TabBox@Group=\box83
+\FV@TmpLength=\skip79
+\c@FV@HighlightLinesStart=\count469
+\c@FV@HighlightLinesStop=\count470
+\FV@LoopCount=\count471
+\FV@NCharsBox=\box84
+\FV@BreakIndent=\dimen290
+\FV@BreakIndentNChars=\count472
+\FV@BreakSymbolSepLeft=\dimen291
+\FV@BreakSymbolSepLeftNChars=\count473
+\FV@BreakSymbolSepRight=\dimen292
+\FV@BreakSymbolSepRightNChars=\count474
+\FV@BreakSymbolIndentLeft=\dimen293
+\FV@BreakSymbolIndentLeftNChars=\count475
+\FV@BreakSymbolIndentRight=\dimen294
+\FV@BreakSymbolIndentRightNChars=\count476
+\c@FancyVerbLineBreakLast=\count477
+\FV@LineBox=\box85
+\FV@LineIndentBox=\box86
+\FV@LineWidth=\dimen295
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count478
+\calc@Bcount=\count479
+\calc@Adimen=\dimen296
+\calc@Bdimen=\dimen297
+\calc@Askip=\skip80
+\calc@Bskip=\skip81
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count480
+\calc@Cskip=\skip82
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+)
+
+Package ifplatform Warning: 
+    shell escape is disabled, so I can only detect \ifwindows.
+
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count481
+\decimalpart=\count482
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip83
+\fb@frw=\dimen298
+\fb@frh=\dimen299
+\FrameRule=\dimen300
+\FrameSep=\dimen301
+)
+\minted@appexistsfile=\read7
+\minted@bgbox=\box87
+\minted@code=\write8
+\c@minted@FancyVerbLineTemp=\count483
+\c@minted@pygmentizecounter=\count484
+\@float@every@listing=\toks47
+\c@listing=\count485
+)
+runsystem(mkdir -p _minted-main)...disabled (restricted).
+
+
+
+/usr/local/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcbminted.code.tex:23: P
+ackage minted Error: You must invoke LaTeX with the -shell-escape flag.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \RequirePackage{minted}[2011/09/17]
+                                        
+? 
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count486
+\mult@box=\box88
+\multicol@leftmargin=\dimen302
+\c@unbalance=\count487
+\c@collectmore=\count488
+\doublecol@number=\count489
+\multicoltolerance=\count490
+\multicolpretolerance=\count491
+\full@width=\dimen303
+\page@free=\dimen304
+\premulticols=\dimen305
+\postmulticols=\dimen306
+\multicolsep=\skip84
+\multicolbaselineskip=\skip85
+\partial@page=\box89
+\last@line=\box90
+\maxbalancingoverflow=\dimen307
+\mult@rightbox=\box91
+\mult@grightbox=\box92
+\mult@gfirstbox=\box93
+\mult@firstbox=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\@tempa=\box122
+\@tempa=\box123
+\@tempa=\box124
+\@tempa=\box125
+\@tempa=\box126
+\@tempa=\box127
+\@tempa=\box128
+\@tempa=\box129
+\@tempa=\box130
+\@tempa=\box131
+\c@minrows=\count492
+\c@columnbadness=\count493
+\c@finalcolumnbadness=\count494
+\last@try=\dimen308
+\multicolovershoot=\dimen309
+\multicolundershoot=\dimen310
+\mult@nat@firstbox=\box132
+\colbreak@box=\box133
+\mc@col@check@num=\count495
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
+\csq@reset=\count496
+\csq@gtype=\count497
+\csq@glevel=\count498
+\csq@qlevel=\count499
+\csq@maxlvl=\count500
+\csq@tshold=\count501
+\csq@ltx@everypar=\toks48
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+)))
+runsystem(which pygmentize && touch main.aex)...disabled (restricted).
+
+
+
+./main.tex:23: Package minted Error: You must have `pygmentize' installed to us
+e this package.
+
+See the minted package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \begin{document}
+                     
+? 
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'english'.
+No file main.aux.
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 23.
+LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 2
+3.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/ly1/ly1ptm.fd
+File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
+)
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+
+(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count502
+\scratchdimen=\dimen311
+\scratchbox=\box134
+\nofMPsegments=\count503
+\nofMParguments=\count504
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count505
+\MPscratchDim=\dimen312
+\MPnumerator=\count506
+\makeMPintoPDFobject=\count507
+\everyMPtoPDFconversion=\toks50
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: landscape 
+* h-part:(L,W,R)=(28.45274pt, 788.14136pt, 28.45274pt)
+* v-part:(T,H,B)=(28.45274pt, 540.60239pt, 28.45274pt)
+* \paperwidth=845.04684pt
+* \paperheight=597.50787pt
+* \textwidth=788.14136pt
+* \textheight=540.60239pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-80.81725pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=30.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring OFF on input line 23.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count508
+)
+LaTeX Info: Redefining \ref on input line 23.
+LaTeX Info: Redefining \pageref on input line 23.
+LaTeX Info: Redefining \nameref on input line 23.
+\@outlinefile=\write9
+\openout9 = `main.out'.
+
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2021-02-18 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
+)
+\openout4 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' not found.
+
+No file main.bbl.
+Package biblatex Info: Reference section=0 on input line 23.
+Package biblatex Info: Reference segment=0 on input line 23.
+\c@lstlisting=\count509
+<Figures/NMACN.png, id=43, 1296.042pt x 878.3214pt>
+File: Figures/NMACN.png Graphic file (type png)
+<use Figures/NMACN.png>
+Package pdftex.def Info: Figures/NMACN.png  used on input line 26.
+(pdftex.def)             Requested size: 38.87958pt x 26.3485pt.
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 26.
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
+(Font)              scaled to size 24.88pt on input line 26.
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 26.
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 26.
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
+(Font)              scaled to size 6.0pt on input line 26.
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 28.
+\openout2 = `BayesianDecisions.aux'.
+
+(./BayesianDecisions.tex
+./BayesianDecisions.tex:2: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.2 ...ayes with a binary hidden state (W3D1T1)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./BayesianDecisions.tex:2: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.2 ...ayes with a binary hidden state (W3D1T1)} }
+                                                  
+? 
+
+./BayesianDecisions.tex:2: Package xcolor Error: Undefined color `\protect \let
+ \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...ayes with a binary hidden state (W3D1T1)} }
+                                                  
+? 
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 2.
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 2.
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
+(Font)              scaled to size 7.0pt on input line 3.
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
+(Font)              scaled to size 5.0pt on input line 25.
+<Figures/BD/BD_Figure1.png, id=48, 682.04813pt x 278.03876pt>
+File: Figures/BD/BD_Figure1.png Graphic file (type png)
+<use Figures/BD/BD_Figure1.png>
+Package pdftex.def Info: Figures/BD/BD_Figure1.png  used on input line 28.
+(pdftex.def)             Requested size: 156.86777pt x 63.94756pt.
+./BayesianDecisions.tex:34: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.34 ...yes with a binary hidden state (W3D1T1)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./BayesianDecisions.tex:34: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.34 ...yes with a binary hidden state (W3D1T1)} }
+                                                  
+? 
+
+./BayesianDecisions.tex:34: Package xcolor Error: Undefined color `\protect \le
+t \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...yes with a binary hidden state (W3D1T1)} }
+                                                  
+? 
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/it' will be
+(Font)              scaled to size 7.0pt on input line 47.
+./BayesianDecisions.tex:58: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.58 ...yes with a binary hidden state (W3D1T1)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./BayesianDecisions.tex:58: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.58 ...yes with a binary hidden state (W3D1T1)} }
+                                                  
+? 
+
+./BayesianDecisions.tex:58: Package xcolor Error: Undefined color `\protect \le
+t \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 ...yes with a binary hidden state (W3D1T1)} }
+                                                  
+? 
+<Figures/BD/BD_Figure2.png, id=51, 385.44pt x 362.35374pt>
+File: Figures/BD/BD_Figure2.png Graphic file (type png)
+<use Figures/BD/BD_Figure2.png>
+Package pdftex.def Info: Figures/BD/BD_Figure2.png  used on input line 74.
+(pdftex.def)             Requested size: 134.90602pt x 126.8257pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--82
+
+ []
+
+./BayesianDecisions.tex:83: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.83 ...yes with a binary hidden state (W3D1T1)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./BayesianDecisions.tex:83: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.83 ...yes with a binary hidden state (W3D1T1)} }
+                                                  
+? 
+
+./BayesianDecisions.tex:83: Package xcolor Error: Undefined color `\protect \le
+t \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.83 ...yes with a binary hidden state (W3D1T1)} }
+                                                  
+? 
+./BayesianDecisions.tex:123: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.123 ...es with a binary hidden state (W3D1T1)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./BayesianDecisions.tex:123: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.123 ...es with a binary hidden state (W3D1T1)} }
+                                                  
+? 
+
+./BayesianDecisions.tex:123: Package xcolor Error: Undefined color `\protect \l
+et \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 ...es with a binary hidden state (W3D1T1)} }
+                                                  
+? 
+
+Overfull \hbox (25.46504pt too wide) in alignment at lines 129--134
+ [][][] []
+ []
+
+
+Overfull \hbox (0.7155pt too wide) detected at line 139
+[]
+ []
+
+
+Overfull \hbox (13.87444pt too wide) detected at line 140
+[]
+ []
+
+
+Overfull \hbox (12.96986pt too wide) detected at line 145
+[]
+ []
+
+./BayesianDecisions.tex:157: Missing $ inserted.
+<inserted text> 
+                $
+l.157  p(m\|
+            s)  & m = fish & m = no fish \\ [0.5ex]
+? 
+./BayesianDecisions.tex:157: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.157  p(m\|s)  &
+                  m = fish & m = no fish \\ [0.5ex]
+? 
+./BayesianDecisions.tex:157: Missing $ inserted.
+<inserted text> 
+                $
+l.157  p(m\|s)  &
+                  m = fish & m = no fish \\ [0.5ex]
+? 
+./BayesianDecisions.tex:157: Missing } inserted.
+<inserted text> 
+                }
+l.157  p(m\|s)  &
+                  m = fish & m = no fish \\ [0.5ex]
+? 
+./BayesianDecisions.tex:177: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.177 ...es with a binary hidden state (W3D1T1)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./BayesianDecisions.tex:177: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.177 ...es with a binary hidden state (W3D1T1)} }
+                                                  
+? 
+
+./BayesianDecisions.tex:177: Package xcolor Error: Undefined color `\protect \l
+et \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 ...es with a binary hidden state (W3D1T1)} }
+                                                  
+? 
+
+Overfull \hbox (11.7687pt too wide) in alignment at lines 192--197
+ [][][] []
+ []
+
+
+Overfull \hbox (14.04494pt too wide) in alignment at lines 199--203
+ [][][] []
+ []
+
+./BayesianDecisions.tex:209: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.209 ...es with a binary hidden state (W3D1T1)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./BayesianDecisions.tex:209: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.209 ...es with a binary hidden state (W3D1T1)} }
+                                                  
+? 
+
+./BayesianDecisions.tex:209: Package xcolor Error: Undefined color `\protect \l
+et \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.209 ...es with a binary hidden state (W3D1T1)} }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--241
+
+ []
+
+[1
+
+
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Figur
+es/NMACN.png> <./Figures/BD/BD_Figure1.png> <./Figures/BD/BD_Figure2.png>]
+[2]
+./BayesianDecisions.tex:245: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.245 ...es with a binary hidden state (W3D1T1)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./BayesianDecisions.tex:245: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.245 ...es with a binary hidden state (W3D1T1)} }
+                                                  
+? 
+
+./BayesianDecisions.tex:245: Package xcolor Error: Undefined color `\protect \l
+et \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.245 ...es with a binary hidden state (W3D1T1)} }
+                                                  
+? 
+
+Overfull \hbox (19.11504pt too wide) in alignment at lines 275--279
+ [][][] []
+ []
+
+./BayesianDecisions.tex:298: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.298 ...es with a binary hidden state (W3D1T1)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./BayesianDecisions.tex:298: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.298 ...es with a binary hidden state (W3D1T1)} }
+                                                  
+? 
+
+./BayesianDecisions.tex:298: Package xcolor Error: Undefined color `\protect \l
+et \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.298 ...es with a binary hidden state (W3D1T1)} }
+                                                  
+? 
+<Figures/BD/BD_Figure3.png, id=86, 1671.24374pt x 676.5275pt>
+File: Figures/BD/BD_Figure3.png Graphic file (type png)
+<use Figures/BD/BD_Figure3.png>
+Package pdftex.def Info: Figures/BD/BD_Figure3.png  used on input line 304.
+(pdftex.def)             Requested size: 200.54059pt x 81.1798pt.
+
+Overfull \hbox (12.66998pt too wide) in paragraph at lines 304--305
+ [][] 
+ []
+
+<Figures/BD/BD_Figure4.png, id=87, 650.93187pt x 551.05875pt>
+File: Figures/BD/BD_Figure4.png Graphic file (type png)
+<use Figures/BD/BD_Figure4.png>
+Package pdftex.def Info: Figures/BD/BD_Figure4.png  used on input line 315.
+(pdftex.def)             Requested size: 162.73256pt x 137.76434pt.
+./BayesianDecisions.tex:325: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.325 ... with continuous hidden state (W3D1T2)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./BayesianDecisions.tex:325: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.325 ... with continuous hidden state (W3D1T2)} }
+                                                  
+? 
+
+./BayesianDecisions.tex:325: Package xcolor Error: Undefined color `\protect \l
+et \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.325 ... with continuous hidden state (W3D1T2)} }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--325
+[][]\T1/Raleway-TLF/b/n/12 Bayesian in-fer-ence and de-ci-sions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--325
+\T1/Raleway-TLF/b/n/12 with con-tin-u-ous hid-den state
+ []
+
+<Figures/BD/BD_Figure5.png, id=89, 1440.38126pt x 483.8075pt>
+File: Figures/BD/BD_Figure5.png Graphic file (type png)
+<use Figures/BD/BD_Figure5.png>
+Package pdftex.def Info: Figures/BD/BD_Figure5.png  used on input line 339.
+(pdftex.def)             Requested size: 144.04655pt x 48.38358pt.
+./BayesianDecisions.tex:360: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.360 ... with continuous hidden state (W3D1T2)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./BayesianDecisions.tex:360: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.360 ... with continuous hidden state (W3D1T2)} }
+                                                  
+? 
+
+./BayesianDecisions.tex:360: Package xcolor Error: Undefined color `\protect \l
+et \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.360 ... with continuous hidden state (W3D1T2)} }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--360
+[][]\T1/Raleway-TLF/b/n/12 Bayesian in-fer-ence and de-ci-sions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--360
+\T1/Raleway-TLF/b/n/12 with con-tin-u-ous hid-den state
+ []
+
+./BayesianDecisions.tex:395: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.395 ... with continuous hidden state (W3D1T2)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./BayesianDecisions.tex:395: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.395 ... with continuous hidden state (W3D1T2)} }
+                                                  
+? 
+
+./BayesianDecisions.tex:395: Package xcolor Error: Undefined color `\protect \l
+et \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.395 ... with continuous hidden state (W3D1T2)} }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
+[][]\T1/Raleway-TLF/b/n/12 Bayesian in-fer-ence and de-ci-sions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
+\T1/Raleway-TLF/b/n/12 with con-tin-u-ous hid-den state
+ []
+
+<Figures/BD/BD_Figure6.png, id=92, 560.0925pt x 415.05063pt>
+File: Figures/BD/BD_Figure6.png Graphic file (type png)
+<use Figures/BD/BD_Figure6.png>
+Package pdftex.def Info: Figures/BD/BD_Figure6.png  used on input line 404.
+(pdftex.def)             Requested size: 100.81229pt x 74.70589pt.
+
+./BayesianDecisions.tex:412: Package inputenc Error: Unicode character π (U+03
+C0)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.412 ... the weights you put on each Gaussian (π
+                                                  ). The following demo shou...
+
+? 
+<Figures/BD/BD_Figure7.png, id=93, 560.0925pt x 415.05063pt>
+File: Figures/BD/BD_Figure7.png Graphic file (type png)
+<use Figures/BD/BD_Figure7.png>
+Package pdftex.def Info: Figures/BD/BD_Figure7.png  used on input line 420.
+(pdftex.def)             Requested size: 123.22072pt x 91.31142pt.
+./BayesianDecisions.tex:428: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.428 ... with continuous hidden state (W3D1T2)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./BayesianDecisions.tex:428: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.428 ... with continuous hidden state (W3D1T2)} }
+                                                  
+? 
+
+./BayesianDecisions.tex:428: Package xcolor Error: Undefined color `\protect \l
+et \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.428 ... with continuous hidden state (W3D1T2)} }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
+[][]\T1/Raleway-TLF/b/n/12 Bayesian in-fer-ence and de-ci-sions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
+\T1/Raleway-TLF/b/n/12 with con-tin-u-ous hid-den state
+ []
+
+<Figures/BD/BD_Figure8.png, id=95, 848.67062pt x 560.0925pt>
+File: Figures/BD/BD_Figure8.png Graphic file (type png)
+<use Figures/BD/BD_Figure8.png>
+Package pdftex.def Info: Figures/BD/BD_Figure8.png  used on input line 448.
+(pdftex.def)             Requested size: 186.70811pt x 123.22072pt.
+./BayesianDecisions.tex:460: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.460 ... with continuous hidden state (W3D1T2)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./BayesianDecisions.tex:460: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.460 ... with continuous hidden state (W3D1T2)} }
+                                                  
+? 
+
+./BayesianDecisions.tex:460: Package xcolor Error: Undefined color `\protect \l
+et \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.460 ... with continuous hidden state (W3D1T2)} }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--460
+[][]\T1/Raleway-TLF/b/n/12 Bayesian in-fer-ence and de-ci-sions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--460
+\T1/Raleway-TLF/b/n/12 with con-tin-u-ous hid-den state
+ []
+
+<Figures/BD/BD_Figure9.png, id=97, 1065.48062pt x 342.78062pt>
+File: Figures/BD/BD_Figure9.png Graphic file (type png)
+<use Figures/BD/BD_Figure9.png>
+Package pdftex.def Info: Figures/BD/BD_Figure9.png  used on input line 470.
+(pdftex.def)             Requested size: 191.77823pt x 61.69785pt.
+
+Overfull \hbox (3.90762pt too wide) in paragraph at lines 470--471
+ [] 
+ []
+
+./BayesianDecisions.tex:483: Undefined control sequence.
+l.483 \sigma_{XY} = \mathbb
+                           {E}[(X-\mu_{X})(Y-\mu_{Y})]
+? 
+./BayesianDecisions.tex:486: Undefined control sequence.
+<recently read> \mathbb 
+                        
+l.486 $\mathbb
+              {E}[\cdot]$ here denotes the expected value. So the covariance...
+
+? 
+<Figures/BD/BD_Figure10.png, id=98, 511.41063pt x 511.41063pt>
+File: Figures/BD/BD_Figure10.png Graphic file (type png)
+<use Figures/BD/BD_Figure10.png>
+Package pdftex.def Info: Figures/BD/BD_Figure10.png  used on input line 497.
+(pdftex.def)             Requested size: 92.04994pt x 92.04994pt.
+./BayesianDecisions.tex:504: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.504 ... with continuous hidden state (W3D1T2)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./BayesianDecisions.tex:504: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.504 ... with continuous hidden state (W3D1T2)} }
+                                                  
+? 
+
+./BayesianDecisions.tex:504: Package xcolor Error: Undefined color `\protect \l
+et \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.504 ... with continuous hidden state (W3D1T2)} }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 504--504
+[][]\T1/Raleway-TLF/b/n/12 Bayesian in-fer-ence and de-ci-sions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 504--504
+\T1/Raleway-TLF/b/n/12 with con-tin-u-ous hid-den state
+ []
+
+
+Overfull \hbox (1.9282pt too wide) detected at line 533
+[]
+ []
+
+<Figures/BD/BD_Figure11.png, id=100, 560.0925pt x 415.5525pt>
+File: Figures/BD/BD_Figure11.png Graphic file (type png)
+<use Figures/BD/BD_Figure11.png>
+Package pdftex.def Info: Figures/BD/BD_Figure11.png  used on input line 538.
+(pdftex.def)             Requested size: 128.81856pt x 95.57506pt.
+./BayesianDecisions.tex:545: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.545 ... with continuous hidden state (W3D1T2)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./BayesianDecisions.tex:545: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.545 ... with continuous hidden state (W3D1T2)} }
+                                                  
+? 
+
+./BayesianDecisions.tex:545: Package xcolor Error: Undefined color `\protect \l
+et \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.545 ... with continuous hidden state (W3D1T2)} }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 545--545
+[][]\T1/Raleway-TLF/b/n/12 Bayesian in-fer-ence and de-ci-sions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 545--545
+\T1/Raleway-TLF/b/n/12 with con-tin-u-ous hid-den state
+ []
+
+<Figures/BD/BD_Figure12.png, id=102, 848.67062pt x 560.0925pt>
+File: Figures/BD/BD_Figure12.png Graphic file (type png)
+<use Figures/BD/BD_Figure12.png>
+Package pdftex.def Info: Figures/BD/BD_Figure12.png  used on input line 553.
+(pdftex.def)             Requested size: 195.19014pt x 128.81856pt.
+
+Overfull \hbox (7.31953pt too wide) in paragraph at lines 553--554
+ [] 
+ []
+
+<Figures/BD/BD_Figure13.png, id=103, 848.67062pt x 560.0925pt>
+File: Figures/BD/BD_Figure13.png Graphic file (type png)
+<use Figures/BD/BD_Figure13.png>
+Package pdftex.def Info: Figures/BD/BD_Figure13.png  used on input line 564.
+(pdftex.def)             Requested size: 195.19014pt x 128.81856pt.
+
+Overfull \hbox (7.31953pt too wide) in paragraph at lines 564--565
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--569
+
+ []
+
+
+Overfull \vbox (6.72803pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (6.72803pt too high) has occurred while \output is active []
+
+
+[3 <./Figures/BD/BD_Figure3.png> <./Figures/BD/BD_Figure4.png>]
+Overfull \vbox (16.10803pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (16.10803pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (4.46056pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (4.46056pt too high) has occurred while \output is active []
+
+
+[4 <./Figures/BD/BD_Figure5.png> <./Figures/BD/BD_Figure6.png> <./Figures/BD/BD
+_Figure7.png>]
+Overfull \vbox (17.73045pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (17.73045pt too high) has occurred while \output is active []
+
+
+[5 <./Figures/BD/BD_Figure8.png> <./Figures/BD/BD_Figure9.png> <./Figures/BD/BD
+_Figure10.png> <./Figures/BD/BD_Figure11.png>])
+File: Figures/NMACN.png Graphic file (type png)
+<use Figures/NMACN.png>
+Package pdftex.def Info: Figures/NMACN.png  used on input line 34.
+(pdftex.def)             Requested size: 38.87958pt x 26.3485pt.
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
+(Font)              scaled to size 9.0pt on input line 34.
+ [6 <./Figures/BD/BD_Figure12.png> <./Figures/BD/BD_Figure13.png>]
+\openout2 = `HiddenDynamics.aux'.
+
+ (./HiddenDynamics.tex
+./HiddenDynamics.tex:1: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.1 ...ential Probability Ratio Test (W3D2T1)}   }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./HiddenDynamics.tex:1: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.1 ...ential Probability Ratio Test (W3D2T1)}   }
+                                                  
+? 
+
+./HiddenDynamics.tex:1: Package xcolor Error: Undefined color `\protect \let \r
+eserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 ...ential Probability Ratio Test (W3D2T1)}   }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+[][]\T1/Raleway-TLF/b/n/12 Sequential Prob-a-bil-ity Ra-tio Test
+ []
+
+./HiddenDynamics.tex:21: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.21 ...ntial Probability Ratio Test (W3D2T1)}   }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./HiddenDynamics.tex:21: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.21 ...ntial Probability Ratio Test (W3D2T1)}   }
+                                                  
+? 
+
+./HiddenDynamics.tex:21: Package xcolor Error: Undefined color `\protect \let \
+reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...ntial Probability Ratio Test (W3D2T1)}   }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[][]\T1/Raleway-TLF/b/n/12 Sequential Prob-a-bil-ity Ra-tio Test
+ []
+
+./HiddenDynamics.tex:53: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.53 ...ntial Probability Ratio Test (W3D2T1)}   }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./HiddenDynamics.tex:53: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.53 ...ntial Probability Ratio Test (W3D2T1)}   }
+                                                  
+? 
+
+./HiddenDynamics.tex:53: Package xcolor Error: Undefined color `\protect \let \
+reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 ...ntial Probability Ratio Test (W3D2T1)}   }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+[][]\T1/Raleway-TLF/b/n/12 Sequential Prob-a-bil-ity Ra-tio Test
+ []
+
+./HiddenDynamics.tex:92: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.92 ...ntial Probability Ratio Test (W3D2T1)}   }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./HiddenDynamics.tex:92: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.92 ...ntial Probability Ratio Test (W3D2T1)}   }
+                                                  
+? 
+
+./HiddenDynamics.tex:92: Package xcolor Error: Undefined color `\protect \let \
+reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.92 ...ntial Probability Ratio Test (W3D2T1)}   }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+[][]\T1/Raleway-TLF/b/n/12 Sequential Prob-a-bil-ity Ra-tio Test
+ []
+
+<Figures/HD/HD_Figure1.png, id=168, 656.4525pt x 417.56pt>
+File: Figures/HD/HD_Figure1.png Graphic file (type png)
+<use Figures/HD/HD_Figure1.png>
+Package pdftex.def Info: Figures/HD/HD_Figure1.png  used on input line 103.
+(pdftex.def)             Requested size: 164.11272pt x 104.38974pt.
+./HiddenDynamics.tex:125: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.125 ...tial Probability Ratio Test (W3D2T1)}   }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./HiddenDynamics.tex:125: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.125 ...tial Probability Ratio Test (W3D2T1)}   }
+                                                  
+? 
+
+./HiddenDynamics.tex:125: Package xcolor Error: Undefined color `\protect \let 
+\reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.125 ...tial Probability Ratio Test (W3D2T1)}   }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[][]\T1/Raleway-TLF/b/n/12 Sequential Prob-a-bil-ity Ra-tio Test
+ []
+
+<Figures/HD/HD_Figure2.png, id=170, 844.65562pt x 562.1pt>
+File: Figures/HD/HD_Figure2.png Graphic file (type png)
+<use Figures/HD/HD_Figure2.png>
+Package pdftex.def Info: Figures/HD/HD_Figure2.png  used on input line 134.
+(pdftex.def)             Requested size: 168.92813pt x 112.418pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--158
+
+ []
+
+[7]
+Overfull \vbox (14.9748pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (14.9748pt too high) has occurred while \output is active []
+
+
+[8 <./Figures/HD/HD_Figure1.png> <./Figures/HD/HD_Figure2.png>]
+./HiddenDynamics.tex:161: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.161 ...2.html}{Hidden Markov Model (W3D2T2)}   }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./HiddenDynamics.tex:161: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.161 ...2.html}{Hidden Markov Model (W3D2T2)}   }
+                                                  
+? 
+
+./HiddenDynamics.tex:161: Package xcolor Error: Undefined color `\protect \let 
+\reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 ...2.html}{Hidden Markov Model (W3D2T2)}   }
+                                                  
+? 
+
+Overfull \hbox (3.30298pt too wide) detected at line 185
+[]
+ []
+
+./HiddenDynamics.tex:213: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.213 ...2.html}{Hidden Markov Model (W3D2T2)}   }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./HiddenDynamics.tex:213: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.213 ...2.html}{Hidden Markov Model (W3D2T2)}   }
+                                                  
+? 
+
+./HiddenDynamics.tex:213: Package xcolor Error: Undefined color `\protect \let 
+\reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.213 ...2.html}{Hidden Markov Model (W3D2T2)}   }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
+
+ []
+
+<Figures/HD/HD_Figure3.png, id=197, 560.0925pt x 271.0125pt>
+File: Figures/HD/HD_Figure3.png Graphic file (type png)
+<use Figures/HD/HD_Figure3.png>
+Package pdftex.def Info: Figures/HD/HD_Figure3.png  used on input line 239.
+(pdftex.def)             Requested size: 140.02278pt x 67.75294pt.
+LaTeX Font Info:    Trying to load font information for TS1+Raleway-TLF on inpu
+t line 248.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/raleway/TS1Raleway-TLF.fd
+File: TS1Raleway-TLF.fd 2014/07/28 (autoinst) Font definitions for TS1/Raleway-
+TLF.
+)
+LaTeX Font Info:    Font shape `TS1/Raleway-TLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 248.
+<Figures/HD/HD_Figure4.png, id=198, 560.0925pt x 415.05063pt>
+File: Figures/HD/HD_Figure4.png Graphic file (type png)
+<use Figures/HD/HD_Figure4.png>
+Package pdftex.def Info: Figures/HD/HD_Figure4.png  used on input line 262.
+(pdftex.def)             Requested size: 112.01651pt x 83.00865pt.
+
+./HiddenDynamics.tex:271: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.271 ...2.html}{Hidden Markov Model (W3D2T2)}   }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./HiddenDynamics.tex:271: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.271 ...2.html}{Hidden Markov Model (W3D2T2)}   }
+                                                  
+? 
+
+./HiddenDynamics.tex:271: Package xcolor Error: Undefined color `\protect \let 
+\reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.271 ...2.html}{Hidden Markov Model (W3D2T2)}   }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+
+ []
+
+<Figures/HD/HD_Figure5.png, id=200, 775.39688pt x 415.5525pt>
+File: Figures/HD/HD_Figure5.png Graphic file (type png)
+<use Figures/HD/HD_Figure5.png>
+Package pdftex.def Info: Figures/HD/HD_Figure5.png  used on input line 293.
+(pdftex.def)             Requested size: 193.84874pt x 103.88786pt.
+
+Overfull \hbox (5.97813pt too wide) in paragraph at lines 293--294
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--304
+
+ []
+
+
+Overfull \vbox (4.60591pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (4.60591pt too high) has occurred while \output is active []
+
+
+[9 <./Figures/HD/HD_Figure3.png> <./Figures/HD/HD_Figure4.png> <./Figures/HD/HD
+_Figure5.png>]
+./HiddenDynamics.tex:307: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.307 ...al3.html}{The Kalman Filter (W3D2T3)}   }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./HiddenDynamics.tex:307: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.307 ...al3.html}{The Kalman Filter (W3D2T3)}   }
+                                                  
+? 
+
+./HiddenDynamics.tex:307: Package xcolor Error: Undefined color `\protect \let 
+\reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.307 ...al3.html}{The Kalman Filter (W3D2T3)}   }
+                                                  
+? 
+<Figures/HD/HD_Figure6.png, id=211, 560.0925pt x 415.5525pt>
+File: Figures/HD/HD_Figure6.png Graphic file (type png)
+<use Figures/HD/HD_Figure6.png>
+Package pdftex.def Info: Figures/HD/HD_Figure6.png  used on input line 327.
+(pdftex.def)             Requested size: 112.01651pt x 83.10902pt.
+./HiddenDynamics.tex:348: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.348 ...al3.html}{The Kalman Filter (W3D2T3)}   }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./HiddenDynamics.tex:348: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.348 ...al3.html}{The Kalman Filter (W3D2T3)}   }
+                                                  
+? 
+
+./HiddenDynamics.tex:348: Package xcolor Error: Undefined color `\protect \let 
+\reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.348 ...al3.html}{The Kalman Filter (W3D2T3)}   }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
+
+ []
+
+./HiddenDynamics.tex:372: Undefined control sequence.
+l.372 \texbf
+            {Step 2a: add information from prior and likelihood}\\
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--373
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
+
+ []
+
+./HiddenDynamics.tex:396: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.396 ...al3.html}{The Kalman Filter (W3D2T3)}   }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./HiddenDynamics.tex:396: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.396 ...al3.html}{The Kalman Filter (W3D2T3)}   }
+                                                  
+? 
+
+./HiddenDynamics.tex:396: Package xcolor Error: Undefined color `\protect \let 
+\reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.396 ...al3.html}{The Kalman Filter (W3D2T3)}   }
+                                                  
+? 
+<Figures/HD/HD_Figure7.png, id=214, 1067.99pt x 370.38374pt>
+File: Figures/HD/HD_Figure7.png Graphic file (type png)
+<use Figures/HD/HD_Figure7.png>
+Package pdftex.def Info: Figures/HD/HD_Figure7.png  used on input line 412.
+(pdftex.def)             Requested size: 181.5559pt x 62.9644pt.
+
+./HiddenDynamics.tex:416: Package pgfkeys Error: I do not know the key '/tcb/es
+timates' and I am going to ignore it. Perhaps you misspelled it.
+
+See the pgfkeys package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.416 ...pare states, estimates, and measurements}
+                                                  
+? 
+
+./HiddenDynamics.tex:416: Package pgfkeys Error: I do not know the key '/tcb/an
+d measurements' and I am going to ignore it. Perhaps you misspelled it.
+
+See the pgfkeys package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.416 ...pare states, estimates, and measurements}
+                                                  
+? 
+<Figures/HD/HD_Figure8.png, id=215, 704.6325pt x 342.78062pt>
+File: Figures/HD/HD_Figure8.png Graphic file (type png)
+<use Figures/HD/HD_Figure8.png>
+Package pdftex.def Info: Figures/HD/HD_Figure8.png  used on input line 426.
+(pdftex.def)             Requested size: 190.25331pt x 92.552pt.
+
+Overfull \hbox (2.3827pt too wide) in paragraph at lines 426--427
+ [] 
+ []
+
+./HiddenDynamics.tex:433: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.433 ...al3.html}{The Kalman Filter (W3D2T3)}   }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./HiddenDynamics.tex:433: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.433 ...al3.html}{The Kalman Filter (W3D2T3)}   }
+                                                  
+? 
+
+./HiddenDynamics.tex:433: Package xcolor Error: Undefined color `\protect \let 
+\reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.433 ...al3.html}{The Kalman Filter (W3D2T3)}   }
+                                                  
+? 
+<Figures/HD/HD_Figure9.png, id=217, 560.0925pt x 415.05063pt>
+File: Figures/HD/HD_Figure9.png Graphic file (type png)
+<use Figures/HD/HD_Figure9.png>
+Package pdftex.def Info: Figures/HD/HD_Figure9.png  used on input line 449.
+(pdftex.def)             Requested size: 140.02278pt x 103.76239pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 458--459
+[]\T1/Raleway-TLF/m/n/7 Brain-Computer In-ter-face: es-ti-mate in-tended
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 345--41
+
+ []
+
+[10 <./Figures/HD/HD_Figure6.png> <./Figures/HD/HD_Figure7.png> <./Figures/HD/H
+D_Figure8.png>] [11 <./Figures/HD/HD_Figure9.png>]
+File: Figures/NMACN.png Graphic file (type png)
+<use Figures/NMACN.png>
+Package pdftex.def Info: Figures/NMACN.png  used on input line 43.
+(pdftex.def)             Requested size: 38.87958pt x 26.3485pt.
+
+Overfull \hbox (23.4842pt too wide) in paragraph at lines 43--46
+[][][]\T1/Raleway-TLF/b/n/24.88 Neuromatch Academy: Re-in-force-ment Learn-ing 
+- Sum-mary Sheet[][][][] 
+ []
+
+\openout2 = `ReinforcementLearning.aux'.
+
+(./ReinforcementLearning.tex
+./ReinforcementLearning.tex:1: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.1 ...rial1.html}{Learning to Predict (W3D4T1)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./ReinforcementLearning.tex:1: Paragraph ended before \XC@col@rlet was complete
+.
+<to be read again> 
+                   \par 
+l.1 ...rial1.html}{Learning to Predict (W3D4T1)} }
+                                                  
+? 
+
+./ReinforcementLearning.tex:1: Package xcolor Error: Undefined color `\protect 
+\let \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 ...rial1.html}{Learning to Predict (W3D4T1)} }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+[]\T1/Raleway-TLF/m/n/7 The agent ex-pe-ri-ences the en-vi-ron-ment in
+ []
+
+./ReinforcementLearning.tex:33: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.33 ...ial1.html}{Learning to Predict (W3D4T1)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./ReinforcementLearning.tex:33: Paragraph ended before \XC@col@rlet was complet
+e.
+<to be read again> 
+                   \par 
+l.33 ...ial1.html}{Learning to Predict (W3D4T1)} }
+                                                  
+? 
+
+./ReinforcementLearning.tex:33: Package xcolor Error: Undefined color `\protect
+ \let \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 ...ial1.html}{Learning to Predict (W3D4T1)} }
+                                                  
+? 
+./ReinforcementLearning.tex:51: Undefined control sequence.
+<argument>  V_{\pi }(s_t=s) &= \mathbb 
+                                       {E} [ G_{t}\; | \; s_t=s, a_{t:\infty...
+l.51 \end{align}
+                
+? 
+./ReinforcementLearning.tex:51: Undefined control sequence.
+<argument> ...t:\infty }\sim \pi ] \\ & = \mathbb 
+                                                  {E} [ r_{t+1} + \gamma G_{...
+l.51 \end{align}
+                
+? 
+./ReinforcementLearning.tex:51: Undefined control sequence.
+<argument>  V_{\pi }(s_t=s) &= \mathbb 
+                                       {E} [ G_{t}\; | \; s_t=s, a_{t:\infty...
+l.51 \end{align}
+                
+? 
+./ReinforcementLearning.tex:51: Undefined control sequence.
+<argument> ...t:\infty }\sim \pi ] \\ & = \mathbb 
+                                                  {E} [ r_{t+1} + \gamma G_{...
+l.51 \end{align}
+                
+? 
+./ReinforcementLearning.tex:58: Undefined control sequence.
+<argument>  V_{\pi }(s_t=s) &= \mathbb 
+                                       {E} [ r_{t+1} + \gamma V_{\pi }(s_{t+...
+l.58 \end{align}
+                
+? 
+./ReinforcementLearning.tex:58: Undefined control sequence.
+<argument>  V_{\pi }(s_t=s) &= \mathbb 
+                                       {E} [ r_{t+1} + \gamma V_{\pi }(s_{t+...
+l.58 \end{align}
+                
+? 
+
+Overfull \hbox (1.98723pt too wide) detected at line 58
+[]
+ []
+
+./ReinforcementLearning.tex:93: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.93 ...ial1.html}{Learning to Predict (W3D4T1)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./ReinforcementLearning.tex:93: Paragraph ended before \XC@col@rlet was complet
+e.
+<to be read again> 
+                   \par 
+l.93 ...ial1.html}{Learning to Predict (W3D4T1)} }
+                                                  
+? 
+
+./ReinforcementLearning.tex:93: Package xcolor Error: Undefined color `\protect
+ \let \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93 ...ial1.html}{Learning to Predict (W3D4T1)} }
+                                                  
+? 
+<Figures/RL/RL_Figure1.png, id=244, 831.105pt x 541.02126pt>
+File: Figures/RL/RL_Figure1.png Graphic file (type png)
+<use Figures/RL/RL_Figure1.png>
+Package pdftex.def Info: Figures/RL/RL_Figure1.png  used on input line 103.
+(pdftex.def)             Requested size: 149.59244pt x 97.37962pt.
+<Figures/RL/RL_Figure2.png, id=245, 560.0925pt x 415.05063pt>
+File: Figures/RL/RL_Figure2.png Graphic file (type png)
+<use Figures/RL/RL_Figure2.png>
+Package pdftex.def Info: Figures/RL/RL_Figure2.png  used on input line 120.
+(pdftex.def)             Requested size: 84.01024pt x 62.2549pt.
+./ReinforcementLearning.tex:127: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.127 ...al1.html}{Learning to Predict (W3D4T1)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./ReinforcementLearning.tex:127: Paragraph ended before \XC@col@rlet was comple
+te.
+<to be read again> 
+                   \par 
+l.127 ...al1.html}{Learning to Predict (W3D4T1)} }
+                                                  
+? 
+
+./ReinforcementLearning.tex:127: Package xcolor Error: Undefined color `\protec
+t \let \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127 ...al1.html}{Learning to Predict (W3D4T1)} }
+                                                  
+? 
+<Figures/RL/RL_Figure3.png, id=247, 559.59062pt x 415.5525pt>
+File: Figures/RL/RL_Figure3.png Graphic file (type png)
+<use Figures/RL/RL_Figure3.png>
+Package pdftex.def Info: Figures/RL/RL_Figure3.png  used on input line 142.
+(pdftex.def)             Requested size: 167.87848pt x 124.6667pt.
+./ReinforcementLearning.tex:163: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.163 ...al1.html}{Learning to Predict (W3D4T1)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./ReinforcementLearning.tex:163: Paragraph ended before \XC@col@rlet was comple
+te.
+<to be read again> 
+                   \par 
+l.163 ...al1.html}{Learning to Predict (W3D4T1)} }
+                                                  
+? 
+
+./ReinforcementLearning.tex:163: Package xcolor Error: Undefined color `\protec
+t \let \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.163 ...al1.html}{Learning to Predict (W3D4T1)} }
+                                                  
+? 
+<Figures/RL/RL_Figure4.png, id=249, 560.0925pt x 415.05063pt>
+File: Figures/RL/RL_Figure4.png Graphic file (type png)
+<use Figures/RL/RL_Figure4.png>
+Package pdftex.def Info: Figures/RL/RL_Figure4.png  used on input line 169.
+(pdftex.def)             Requested size: 84.01024pt x 62.2549pt.
+<Figures/RL/RL_Figure5.png, id=250, 530.48187pt x 405.515pt>
+File: Figures/RL/RL_Figure5.png Graphic file (type png)
+<use Figures/RL/RL_Figure5.png>
+Package pdftex.def Info: Figures/RL/RL_Figure5.png  used on input line 178.
+(pdftex.def)             Requested size: 79.56883pt x 60.82462pt.
+<Figures/RL/RL_Figure6.png, id=251, 560.0925pt x 414.54875pt>
+File: Figures/RL/RL_Figure6.png Graphic file (type png)
+<use Figures/RL/RL_Figure6.png>
+Package pdftex.def Info: Figures/RL/RL_Figure6.png  used on input line 193.
+(pdftex.def)             Requested size: 112.01651pt x 82.90828pt.
+./ReinforcementLearning.tex:200: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.200 ...al1.html}{Learning to Predict (W3D4T1)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./ReinforcementLearning.tex:200: Paragraph ended before \XC@col@rlet was comple
+te.
+<to be read again> 
+                   \par 
+l.200 ...al1.html}{Learning to Predict (W3D4T1)} }
+                                                  
+? 
+
+./ReinforcementLearning.tex:200: Package xcolor Error: Undefined color `\protec
+t \let \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.200 ...al1.html}{Learning to Predict (W3D4T1)} }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--211
+
+ []
+
+[12 <./Figures/RL/RL_Figure1.png> <./Figures/RL/RL_Figure2.png>] [13 <./Figures
+/RL/RL_Figure3.png> <./Figures/RL/RL_Figure4.png> <./Figures/RL/RL_Figure5.png>
+ <./Figures/RL/RL_Figure6.png>]
+./ReinforcementLearning.tex:217: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.217 ...g to Act: Multi-Armed Bandits (W3D4T2)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./ReinforcementLearning.tex:217: Paragraph ended before \XC@col@rlet was comple
+te.
+<to be read again> 
+                   \par 
+l.217 ...g to Act: Multi-Armed Bandits (W3D4T2)} }
+                                                  
+? 
+
+./ReinforcementLearning.tex:217: Package xcolor Error: Undefined color `\protec
+t \let \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.217 ...g to Act: Multi-Armed Bandits (W3D4T2)} }
+                                                  
+? 
+<Figures/RL/RL_Figure7.png, id=282, 1044.90375pt x 449.68pt>
+File: Figures/RL/RL_Figure7.png Graphic file (type png)
+<use Figures/RL/RL_Figure7.png>
+Package pdftex.def Info: Figures/RL/RL_Figure7.png  used on input line 227.
+(pdftex.def)             Requested size: 188.07455pt x 80.9389pt.
+./ReinforcementLearning.tex:237: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.237 ...g to Act: Multi-Armed Bandits (W3D4T2)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./ReinforcementLearning.tex:237: Paragraph ended before \XC@col@rlet was comple
+te.
+<to be read again> 
+                   \par 
+l.237 ...g to Act: Multi-Armed Bandits (W3D4T2)} }
+                                                  
+? 
+
+./ReinforcementLearning.tex:237: Package xcolor Error: Undefined color `\protec
+t \let \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.237 ...g to Act: Multi-Armed Bandits (W3D4T2)} }
+                                                  
+? 
+./ReinforcementLearning.tex:243: Undefined control sequence.
+l.243 q(a) = \mathbb
+                    {E} [r_{t} | a_{t} = a]
+? 
+./ReinforcementLearning.tex:265: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.265 ...g to Act: Multi-Armed Bandits (W3D4T2)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./ReinforcementLearning.tex:265: Paragraph ended before \XC@col@rlet was comple
+te.
+<to be read again> 
+                   \par 
+l.265 ...g to Act: Multi-Armed Bandits (W3D4T2)} }
+                                                  
+? 
+
+./ReinforcementLearning.tex:265: Package xcolor Error: Undefined color `\protec
+t \let \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265 ...g to Act: Multi-Armed Bandits (W3D4T2)} }
+                                                  
+? 
+<Figures/RL/RL_Figure8.png, id=285, 830.10126pt x 542.025pt>
+File: Figures/RL/RL_Figure8.png Graphic file (type png)
+<use Figures/RL/RL_Figure8.png>
+Package pdftex.def Info: Figures/RL/RL_Figure8.png  used on input line 292.
+(pdftex.def)             Requested size: 149.41177pt x 97.56029pt.
+./ReinforcementLearning.tex:300: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.300 ...g to Act: Multi-Armed Bandits (W3D4T2)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./ReinforcementLearning.tex:300: Paragraph ended before \XC@col@rlet was comple
+te.
+<to be read again> 
+                   \par 
+l.300 ...g to Act: Multi-Armed Bandits (W3D4T2)} }
+                                                  
+? 
+
+./ReinforcementLearning.tex:300: Package xcolor Error: Undefined color `\protec
+t \let \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.300 ...g to Act: Multi-Armed Bandits (W3D4T2)} }
+                                                  
+? 
+<Figures/RL/RL_Figure9.png, id=287, 1138.2525pt x 415.5525pt>
+File: Figures/RL/RL_Figure9.png Graphic file (type png)
+<use Figures/RL/RL_Figure9.png>
+Package pdftex.def Info: Figures/RL/RL_Figure9.png  used on input line 310.
+(pdftex.def)             Requested size: 170.7305pt x 62.33018pt.
+<Figures/RL/RL_Figure10.png, id=288, 560.0925pt x 415.05063pt>
+File: Figures/RL/RL_Figure10.png Graphic file (type png)
+<use Figures/RL/RL_Figure10.png>
+Package pdftex.def Info: Figures/RL/RL_Figure10.png  used on input line 316.
+(pdftex.def)             Requested size: 84.01024pt x 62.2549pt.
+./ReinforcementLearning.tex:328: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.328 ...g to Act: Multi-Armed Bandits (W3D4T2)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./ReinforcementLearning.tex:328: Paragraph ended before \XC@col@rlet was comple
+te.
+<to be read again> 
+                   \par 
+l.328 ...g to Act: Multi-Armed Bandits (W3D4T2)} }
+                                                  
+? 
+
+./ReinforcementLearning.tex:328: Package xcolor Error: Undefined color `\protec
+t \let \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.328 ...g to Act: Multi-Armed Bandits (W3D4T2)} }
+                                                  
+? 
+<Figures/RL/RL_Figure11.png, id=290, 1426.83063pt x 271.0125pt>
+File: Figures/RL/RL_Figure11.png Graphic file (type png)
+<use Figures/RL/RL_Figure11.png>
+Package pdftex.def Info: Figures/RL/RL_Figure11.png  used on input line 337.
+(pdftex.def)             Requested size: 185.49449pt x 35.23285pt.
+<Figures/RL/RL_Figure12.png, id=291, 1137.75063pt x 415.5525pt>
+File: Figures/RL/RL_Figure12.png Graphic file (type png)
+<use Figures/RL/RL_Figure12.png>
+Package pdftex.def Info: Figures/RL/RL_Figure12.png  used on input line 346.
+(pdftex.def)             Requested size: 170.65523pt x 62.33018pt.
+<Figures/RL/RL_Figure13.png, id=292, 1137.75063pt x 415.5525pt>
+File: Figures/RL/RL_Figure13.png Graphic file (type png)
+<use Figures/RL/RL_Figure13.png>
+Package pdftex.def Info: Figures/RL/RL_Figure13.png  used on input line 354.
+(pdftex.def)             Requested size: 170.65523pt x 62.33018pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--360
+
+ []
+
+[14 <./Figures/RL/RL_Figure7.png (PNG copy)> <./Figures/RL/RL_Figure8.png>]
+[15 <./Figures/RL/RL_Figure9.png> <./Figures/RL/RL_Figure10.png> <./Figures/RL/
+RL_Figure11.png> <./Figures/RL/RL_Figure12.png> <./Figures/RL/RL_Figure13.png>]
+./ReinforcementLearning.tex:366: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.366 ...}{Learning to Act: Q-Learning (W3D4T3)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./ReinforcementLearning.tex:366: Paragraph ended before \XC@col@rlet was comple
+te.
+<to be read again> 
+                   \par 
+l.366 ...}{Learning to Act: Q-Learning (W3D4T3)} }
+                                                  
+? 
+
+./ReinforcementLearning.tex:366: Package xcolor Error: Undefined color `\protec
+t \let \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.366 ...}{Learning to Act: Q-Learning (W3D4T3)} }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
+[][]\T1/Raleway-TLF/b/n/12 Learning to Act: Q-Learning
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--380
+
+ []
+
+<Figures/RL/RL_Figure14.png, id=316, 965.6075pt x 514.92375pt>
+File: Figures/RL/RL_Figure14.png Graphic file (type png)
+<use Figures/RL/RL_Figure14.png>
+Package pdftex.def Info: Figures/RL/RL_Figure14.png  used on input line 389.
+(pdftex.def)             Requested size: 135.18413pt x 72.08882pt.
+./ReinforcementLearning.tex:398: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.398 ...}{Learning to Act: Q-Learning (W3D4T3)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./ReinforcementLearning.tex:398: Paragraph ended before \XC@col@rlet was comple
+te.
+<to be read again> 
+                   \par 
+l.398 ...}{Learning to Act: Q-Learning (W3D4T3)} }
+                                                  
+? 
+
+./ReinforcementLearning.tex:398: Package xcolor Error: Undefined color `\protec
+t \let \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.398 ...}{Learning to Act: Q-Learning (W3D4T3)} }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
+[][]\T1/Raleway-TLF/b/n/12 Learning to Act: Q-Learning
+ []
+
+./ReinforcementLearning.tex:408: Limit controls must follow a math operator.
+l.408 ...) + \alpha \big(r_t + \gamma\max_{\limits
+                                                  {a}} Q(s_{t+1},a_{t+1}) - ...
+
+? 
+
+Overfull \hbox (26.31242pt too wide) detected at line 409
+\OML/cmm/m/it/7 Q\OT1/cmr/m/n/7 (\OML/cmm/m/it/7 s[]; a[]\OT1/cmr/m/n/7 ) \OMS/
+cmsy/m/n/7   \OML/cmm/m/it/7 Q\OT1/cmr/m/n/7 (\OML/cmm/m/it/7 s[]; a[]\OT1/cmr/
+m/n/7 ) + \OML/cmm/m/it/7 []r[] \OT1/cmr/m/n/7 + \OML/cmm/m/it/7 ^^M [] Q\OT1/
+cmr/m/n/7 (\OML/cmm/m/it/7 s[]; a[]\OT1/cmr/m/n/7 ) \OMS/cmsy/m/n/7 ^^@ \OML/cm
+m/m/it/7 Q\OT1/cmr/m/n/7 (\OML/cmm/m/it/7 s[]; a[]\OT1/cmr/m/n/7 )[]
+ []
+
+./ReinforcementLearning.tex:413: Missing { inserted.
+<to be read again> 
+                   \limits 
+l.413 The expression $r_t + \gamma\max_\limits
+                                              {a} Q(s_{t+1},a_{t+1})$ is ref...
+
+? 
+./ReinforcementLearning.tex:413: Limit controls must follow a math operator.
+<recently read> \limits 
+                        
+l.413 The expression $r_t + \gamma\max_\limits
+                                              {a} Q(s_{t+1},a_{t+1})$ is ref...
+
+? 
+./ReinforcementLearning.tex:413: Missing } inserted.
+<inserted text> 
+                }
+l.413 ...\gamma\max_\limits{a} Q(s_{t+1},a_{t+1})$
+                                                   is referred to as the TD ...
+
+? 
+./ReinforcementLearning.tex:416: Limit controls must follow a math operator.
+l.416 r_t + \gamma\max_{\limits
+                               {a}} Q(s_{t+1},a_{t+1}) - Q(s_t,a_t),
+? 
+<Figures/RL/RL_Figure15.png, id=318, 1137.75063pt x 848.67062pt>
+File: Figures/RL/RL_Figure15.png Graphic file (type png)
+<use Figures/RL/RL_Figure15.png>
+Package pdftex.def Info: Figures/RL/RL_Figure15.png  used on input line 438.
+(pdftex.def)             Requested size: 170.65523pt x 127.29509pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 395--445
+
+ []
+
+
+Overfull \vbox (6.43626pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (6.43626pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (10.00497pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (10.00497pt too high) has occurred while \output is active []
+
+
+[16 <./Figures/RL/RL_Figure14.png (PNG copy)> <./Figures/RL/RL_Figure15.png>]
+./ReinforcementLearning.tex:451: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.451 ...orcement Learning to Planning (W3D4T4)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./ReinforcementLearning.tex:451: Paragraph ended before \XC@col@rlet was comple
+te.
+<to be read again> 
+                   \par 
+l.451 ...orcement Learning to Planning (W3D4T4)} }
+                                                  
+? 
+
+./ReinforcementLearning.tex:451: Package xcolor Error: Undefined color `\protec
+t \let \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.451 ...orcement Learning to Planning (W3D4T4)} }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
+[][]\T1/Raleway-TLF/b/n/12 From Re-in-force-ment Learn-ing to
+ []
+
+<Figures/RL/RL_Figure16.png, id=329, 621.32124pt x 621.32124pt>
+File: Figures/RL/RL_Figure16.png Graphic file (type png)
+<use Figures/RL/RL_Figure16.png>
+Package pdftex.def Info: Figures/RL/RL_Figure16.png  used on input line 462.
+(pdftex.def)             Requested size: 86.98438pt x 86.98438pt.
+./ReinforcementLearning.tex:481: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.481 ...orcement Learning to Planning (W3D4T4)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./ReinforcementLearning.tex:481: Paragraph ended before \XC@col@rlet was comple
+te.
+<to be read again> 
+                   \par 
+l.481 ...orcement Learning to Planning (W3D4T4)} }
+                                                  
+? 
+
+./ReinforcementLearning.tex:481: Package xcolor Error: Undefined color `\protec
+t \let \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.481 ...orcement Learning to Planning (W3D4T4)} }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 481--481
+[][]\T1/Raleway-TLF/b/n/12 From Re-in-force-ment Learn-ing to
+ []
+
+./ReinforcementLearning.tex:495: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.495 ...orcement Learning to Planning (W3D4T4)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./ReinforcementLearning.tex:495: Paragraph ended before \XC@col@rlet was comple
+te.
+<to be read again> 
+                   \par 
+l.495 ...orcement Learning to Planning (W3D4T4)} }
+                                                  
+? 
+
+./ReinforcementLearning.tex:495: Package xcolor Error: Undefined color `\protec
+t \let \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.495 ...orcement Learning to Planning (W3D4T4)} }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
+[][]\T1/Raleway-TLF/b/n/12 From Re-in-force-ment Learn-ing to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 500--502
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 507--508
+[]$\OML/cmm/m/it/7 Q\OT1/cmr/m/n/7 (\OML/cmm/m/it/7 S; A\OT1/cmr/m/n/7 ) \OMS/c
+msy/m/n/7   \OML/cmm/m/it/7 Q\OT1/cmr/m/n/7 (\OML/cmm/m/it/7 S; A\OT1/cmr/m/n/7
+ ) +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--514
+\OML/cmm/m/it/7 Q\OT1/cmr/m/n/7 (\OML/cmm/m/it/7 S; A\OT1/cmr/m/n/7 ) \OMS/cmsy
+/m/n/7   \OML/cmm/m/it/7 Q\OT1/cmr/m/n/7 (\OML/cmm/m/it/7 S; A\OT1/cmr/m/n/7 ) 
++
+ []
+
+<Figures/RL/RL_Figure17.png, id=332, 1138.2525pt x 848.67062pt>
+File: Figures/RL/RL_Figure17.png Graphic file (type png)
+<use Figures/RL/RL_Figure17.png>
+Package pdftex.def Info: Figures/RL/RL_Figure17.png  used on input line 524.
+(pdftex.def)             Requested size: 182.12411pt x 135.79007pt.
+./ReinforcementLearning.tex:533: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.533 ...orcement Learning to Planning (W3D4T4)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./ReinforcementLearning.tex:533: Paragraph ended before \XC@col@rlet was comple
+te.
+<to be read again> 
+                   \par 
+l.533 ...orcement Learning to Planning (W3D4T4)} }
+                                                  
+? 
+
+./ReinforcementLearning.tex:533: Package xcolor Error: Undefined color `\protec
+t \let \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.533 ...orcement Learning to Planning (W3D4T4)} }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--533
+[][]\T1/Raleway-TLF/b/n/12 From Re-in-force-ment Learn-ing to
+ []
+
+<Figures/RL/RL_Figure18.png, id=334, 560.0925pt x 415.05063pt>
+File: Figures/RL/RL_Figure18.png Graphic file (type png)
+<use Figures/RL/RL_Figure18.png>
+Package pdftex.def Info: Figures/RL/RL_Figure18.png  used on input line 547.
+(pdftex.def)             Requested size: 140.02278pt x 103.76239pt.
+./ReinforcementLearning.tex:555: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.555 ...orcement Learning to Planning (W3D4T4)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./ReinforcementLearning.tex:555: Paragraph ended before \XC@col@rlet was comple
+te.
+<to be read again> 
+                   \par 
+l.555 ...orcement Learning to Planning (W3D4T4)} }
+                                                  
+? 
+
+./ReinforcementLearning.tex:555: Package xcolor Error: Undefined color `\protec
+t \let \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.555 ...orcement Learning to Planning (W3D4T4)} }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 555--555
+[][]\T1/Raleway-TLF/b/n/12 From Re-in-force-ment Learn-ing to
+ []
+
+<Figures/RL/RL_Figure19.png, id=336, 621.32124pt x 621.32124pt>
+File: Figures/RL/RL_Figure19.png Graphic file (type png)
+<use Figures/RL/RL_Figure19.png>
+Package pdftex.def Info: Figures/RL/RL_Figure19.png  used on input line 565.
+(pdftex.def)             Requested size: 86.98438pt x 86.98438pt.
+./ReinforcementLearning.tex:567: You can't use `macro parameter character #' in
+ horizontal mode.
+l.567 ...t appearing in the middle after episode #
+                                                  200.
+? 
+<Figures/RL/RL_Figure20.png, id=337, 560.0925pt x 415.05063pt>
+File: Figures/RL/RL_Figure20.png Graphic file (type png)
+<use Figures/RL/RL_Figure20.png>
+Package pdftex.def Info: Figures/RL/RL_Figure20.png  used on input line 572.
+(pdftex.def)             Requested size: 78.41241pt x 58.10669pt.
+./ReinforcementLearning.tex:582: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.582 ...orcement Learning to Planning (W3D4T4)} }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./ReinforcementLearning.tex:582: Paragraph ended before \XC@col@rlet was comple
+te.
+<to be read again> 
+                   \par 
+l.582 ...orcement Learning to Planning (W3D4T4)} }
+                                                  
+? 
+
+./ReinforcementLearning.tex:582: Package xcolor Error: Undefined color `\protec
+t \let \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.582 ...orcement Learning to Planning (W3D4T4)} }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 582--582
+[][]\T1/Raleway-TLF/b/n/12 From Re-in-force-ment Learn-ing to
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 478--51
+
+ []
+
+[17 <./Figures/RL/RL_Figure16.png (PNG copy)> <./Figures/RL/RL_Figure17.png>]
+Overfull \vbox (1.31277pt too high) has occurred while \output is active []
+
+
+[18 <./Figures/RL/RL_Figure18.png> <./Figures/RL/RL_Figure19.png (PNG copy)> <.
+/Figures/RL/RL_Figure20.png>]
+File: Figures/NMACN.png Graphic file (type png)
+<use Figures/NMACN.png>
+Package pdftex.def Info: Figures/NMACN.png  used on input line 53.
+(pdftex.def)             Requested size: 38.87958pt x 26.3485pt.
+\openout2 = `NetworkCausality.aux'.
+
+ (./NetworkCausality.tex
+./NetworkCausality.tex:1: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.1 ...Tutorial1.html}{Interventions (W3D5T1)}   }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./NetworkCausality.tex:1: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.1 ...Tutorial1.html}{Interventions (W3D5T1)}   }
+                                                  
+? 
+
+./NetworkCausality.tex:1: Package xcolor Error: Undefined color `\protect \let 
+\reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 ...Tutorial1.html}{Interventions (W3D5T1)}   }
+                                                  
+? 
+./NetworkCausality.tex:13: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.13 ...utorial1.html}{Interventions (W3D5T1)}   }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./NetworkCausality.tex:13: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.13 ...utorial1.html}{Interventions (W3D5T1)}   }
+                                                  
+? 
+
+./NetworkCausality.tex:13: Package xcolor Error: Undefined color `\protect \let
+ \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ...utorial1.html}{Interventions (W3D5T1)}   }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+./NetworkCausality.tex:40: Undefined control sequence.
+l.40 \delta_{A\to B} = \mathbb
+                              {E}[B | A=1] -  \mathbb{E}[B | A=0]
+? 
+./NetworkCausality.tex:40: Undefined control sequence.
+l.40 ..._{A\to B} = \mathbb{E}[B | A=1] -  \mathbb
+                                                  {E}[B | A=0]
+? 
+./NetworkCausality.tex:44: Undefined control sequence.
+<recently read> \mathbb 
+                        
+l.44 where $\mathbb
+                   {E}[B | A=1]$ is the expected value of B if A is 1 and  $...
+
+? 
+./NetworkCausality.tex:44: Undefined control sequence.
+<recently read> \mathbb 
+                        
+l.44 ...xpected value of B if A is 1 and  $\mathbb
+                                                  {E}[B | A=0]$ is the expec...
+
+? 
+./NetworkCausality.tex:70: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.70 ...utorial1.html}{Interventions (W3D5T1)}   }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./NetworkCausality.tex:70: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.70 ...utorial1.html}{Interventions (W3D5T1)}   }
+                                                  
+? 
+
+./NetworkCausality.tex:70: Package xcolor Error: Undefined color `\protect \let
+ \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 ...utorial1.html}{Interventions (W3D5T1)}   }
+                                                  
+? 
+<Figures/NC/NC_Figure1.png, id=368, 697.10437pt x 349.80687pt>
+File: Figures/NC/NC_Figure1.png Graphic file (type png)
+<use Figures/NC/NC_Figure1.png>
+Package pdftex.def Info: Figures/NC/NC_Figure1.png  used on input line 99.
+(pdftex.def)             Requested size: 174.27567pt x 87.45149pt.
+./NetworkCausality.tex:105: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.105 ...torial1.html}{Interventions (W3D5T1)}   }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./NetworkCausality.tex:105: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.105 ...torial1.html}{Interventions (W3D5T1)}   }
+                                                  
+? 
+
+./NetworkCausality.tex:105: Package xcolor Error: Undefined color `\protect \le
+t \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.105 ...torial1.html}{Interventions (W3D5T1)}   }
+                                                  
+? 
+<Figures/NC/NC_Figure2.png, id=370, 852.18375pt x 536.0025pt>
+File: Figures/NC/NC_Figure2.png Graphic file (type png)
+<use Figures/NC/NC_Figure2.png>
+Package pdftex.def Info: Figures/NC/NC_Figure2.png  used on input line 118.
+(pdftex.def)             Requested size: 170.43372pt x 107.1986pt.
+./NetworkCausality.tex:129: Undefined control sequence.
+l.129 \delta_{A\to B} &=& \mathbb
+                                 {E}[B | A=1] -  \mathbb{E}[B | A=0]
+? 
+./NetworkCausality.tex:129: Undefined control sequence.
+l.129 ...\to B} &=& \mathbb{E}[B | A=1] -  \mathbb
+                                                  {E}[B | A=0]
+? 
+<Figures/NC/NC_Figure3.png, id=371, 947.54pt x 271.0125pt>
+File: Figures/NC/NC_Figure3.png Graphic file (type png)
+<use Figures/NC/NC_Figure3.png>
+Package pdftex.def Info: Figures/NC/NC_Figure3.png  used on input line 145.
+(pdftex.def)             Requested size: 189.50464pt x 54.20152pt.
+
+Overfull \hbox (1.63403pt too wide) in paragraph at lines 145--146
+ [] 
+ []
+
+./NetworkCausality.tex:151: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.151 ...torial1.html}{Interventions (W3D5T1)}   }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./NetworkCausality.tex:151: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.151 ...torial1.html}{Interventions (W3D5T1)}   }
+                                                  
+? 
+
+./NetworkCausality.tex:151: Package xcolor Error: Undefined color `\protect \le
+t \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.151 ...torial1.html}{Interventions (W3D5T1)}   }
+                                                  
+? 
+<Figures/NC/NC_Figure4.png, id=373, 984.67876pt x 707.64375pt>
+File: Figures/NC/NC_Figure4.png Graphic file (type png)
+<use Figures/NC/NC_Figure4.png>
+Package pdftex.def Info: Figures/NC/NC_Figure4.png  used on input line 160.
+(pdftex.def)             Requested size: 147.69543pt x 106.14198pt.
+<Figures/NC/NC_Figure6.png, id=374, 697.10437pt x 349.80687pt>
+File: Figures/NC/NC_Figure6.png Graphic file (type png)
+<use Figures/NC/NC_Figure6.png>
+Package pdftex.def Info: Figures/NC/NC_Figure6.png  used on input line 167.
+(pdftex.def)             Requested size: 139.4184pt x 69.96013pt.
+<Figures/NC/NC_Figure7.png, id=375, 704.13063pt x 352.31625pt>
+File: Figures/NC/NC_Figure7.png Graphic file (type png)
+<use Figures/NC/NC_Figure7.png>
+Package pdftex.def Info: Figures/NC/NC_Figure7.png  used on input line 171.
+(pdftex.def)             Requested size: 140.82362pt x 70.46199pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--178
+
+ []
+
+[19 <./Figures/NC/NC_Figure1.png>]
+Overfull \vbox (8.9959pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (8.9959pt too high) has occurred while \output is active []
+
+
+[20 <./Figures/NC/NC_Figure2.png> <./Figures/NC/NC_Figure3.png> <./Figures/NC/N
+C_Figure4.png> <./Figures/NC/NC_Figure6.png> <./Figures/NC/NC_Figure7.png>]
+./NetworkCausality.tex:184: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.184 ...utorial2.html}{Correlations (W3D5T2)}   }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./NetworkCausality.tex:184: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.184 ...utorial2.html}{Correlations (W3D5T2)}   }
+                                                  
+? 
+
+./NetworkCausality.tex:184: Package xcolor Error: Undefined color `\protect \le
+t \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.184 ...utorial2.html}{Correlations (W3D5T2)}   }
+                                                  
+? 
+<Figures/NC/NC_Figure9.png, id=393, 704.13063pt x 352.31625pt>
+File: Figures/NC/NC_Figure9.png Graphic file (type png)
+<use Figures/NC/NC_Figure9.png>
+Package pdftex.def Info: Figures/NC/NC_Figure9.png  used on input line 216.
+(pdftex.def)             Requested size: 140.82362pt x 70.46199pt.
+<Figures/NC/NC_Figure10.png, id=394, 704.13063pt x 352.31625pt>
+File: Figures/NC/NC_Figure10.png Graphic file (type png)
+<use Figures/NC/NC_Figure10.png>
+Package pdftex.def Info: Figures/NC/NC_Figure10.png  used on input line 218.
+(pdftex.def)             Requested size: 140.82362pt x 70.46199pt.
+./NetworkCausality.tex:224: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.224 ...utorial2.html}{Correlations (W3D5T2)}   }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./NetworkCausality.tex:224: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.224 ...utorial2.html}{Correlations (W3D5T2)}   }
+                                                  
+? 
+
+./NetworkCausality.tex:224: Package xcolor Error: Undefined color `\protect \le
+t \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.224 ...utorial2.html}{Correlations (W3D5T2)}   }
+                                                  
+? 
+<Figures/NC/NC_Figure11.png, id=396, 1115.16624pt x 490.33188pt>
+File: Figures/NC/NC_Figure11.png Graphic file (type png)
+<use Figures/NC/NC_Figure11.png>
+Package pdftex.def Info: Figures/NC/NC_Figure11.png  used on input line 233.
+(pdftex.def)             Requested size: 200.72125pt x 88.25592pt.
+
+Overfull \hbox (12.85065pt too wide) in paragraph at lines 233--234
+ [] 
+ []
+
+<Figures/NC/NC_Figure13.png, id=397, 550.55687pt x 415.05063pt>
+File: Figures/NC/NC_Figure13.png Graphic file (type png)
+<use Figures/NC/NC_Figure13.png>
+Package pdftex.def Info: Figures/NC/NC_Figure13.png  used on input line 241.
+(pdftex.def)             Requested size: 82.57996pt x 62.2549pt.
+<Figures/NC/NC_Figure12.png, id=398, 1065.48062pt x 342.78062pt>
+File: Figures/NC/NC_Figure12.png Graphic file (type png)
+<use Figures/NC/NC_Figure12.png>
+Package pdftex.def Info: Figures/NC/NC_Figure12.png  used on input line 251.
+(pdftex.def)             Requested size: 159.8152pt x 51.41487pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--265
+
+ []
+
+[21 <./Figures/NC/NC_Figure9.png> <./Figures/NC/NC_Figure10.png> <./Figures/NC/
+NC_Figure11.png> <./Figures/NC/NC_Figure13.png> <./Figures/NC/NC_Figure12.png>]
+./NetworkCausality.tex:271: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.271 ...ltaneous fitting/regression (W3D5T3)}   }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./NetworkCausality.tex:271: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.271 ...ltaneous fitting/regression (W3D5T3)}   }
+                                                  
+? 
+
+./NetworkCausality.tex:271: Package xcolor Error: Undefined color `\protect \le
+t \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.271 ...ltaneous fitting/regression (W3D5T3)}   }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--271
+[][]\T1/Raleway-TLF/b/n/12 Simultaneous fit-ting/re-gres-sion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--297
+
+ []
+
+./NetworkCausality.tex:315: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.315 ...ltaneous fitting/regression (W3D5T3)}   }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./NetworkCausality.tex:315: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.315 ...ltaneous fitting/regression (W3D5T3)}   }
+                                                  
+? 
+
+./NetworkCausality.tex:315: Package xcolor Error: Undefined color `\protect \le
+t \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.315 ...ltaneous fitting/regression (W3D5T3)}   }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+[][]\T1/Raleway-TLF/b/n/12 Simultaneous fit-ting/re-gres-sion
+ []
+
+./NetworkCausality.tex:319: You can't use `macro parameter character #' in hori
+zontal mode.
+l.319 ...usal influence of all neurons to neuron #
+                                                  1. Specifically, we will u...
+
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--324
+\T1/Raleway-TLF/m/n/7 some-times re-ferred to as the \T1/Raleway-TLF/b/n/7 logi
+t \T1/Raleway-TLF/m/n/7 trans-for-ma-tion:
+ []
+
+./NetworkCausality.tex:361: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.361 ...ltaneous fitting/regression (W3D5T3)}   }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./NetworkCausality.tex:361: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.361 ...ltaneous fitting/regression (W3D5T3)}   }
+                                                  
+? 
+
+./NetworkCausality.tex:361: Package xcolor Error: Undefined color `\protect \le
+t \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.361 ...ltaneous fitting/regression (W3D5T3)}   }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
+[][]\T1/Raleway-TLF/b/n/12 Simultaneous fit-ting/re-gres-sion
+ []
+
+<Figures/NC/NC_Figure15.png, id=412, 699.61375pt x 756.32562pt>
+File: Figures/NC/NC_Figure15.png Graphic file (type png)
+<use Figures/NC/NC_Figure15.png>
+Package pdftex.def Info: Figures/NC/NC_Figure15.png  used on input line 372.
+(pdftex.def)             Requested size: 167.91072pt x 181.52185pt.
+<Figures/NC/NC_Figure17.png, id=413, 700.6175pt x 415.05063pt>
+File: Figures/NC/NC_Figure17.png Graphic file (type png)
+<use Figures/NC/NC_Figure17.png>
+Package pdftex.def Info: Figures/NC/NC_Figure17.png  used on input line 381.
+(pdftex.def)             Requested size: 175.15395pt x 103.76239pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--387
+
+ []
+
+
+Overfull \vbox (3.35347pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (3.35347pt too high) has occurred while \output is active []
+
+
+[22 <./Figures/NC/NC_Figure15.png> <./Figures/NC/NC_Figure17.png>]
+./NetworkCausality.tex:393: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.393 ...tml}{Instrumental Variables (W3D5T4)}   }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./NetworkCausality.tex:393: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.393 ...tml}{Instrumental Variables (W3D5T4)}   }
+                                                  
+? 
+
+./NetworkCausality.tex:393: Package xcolor Error: Undefined color `\protect \le
+t \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.393 ...tml}{Instrumental Variables (W3D5T4)}   }
+                                                  
+? 
+<Figures/NC/NC_Figure18.png, id=432, 1243.64626pt x 819.06pt>
+File: Figures/NC/NC_Figure18.png Graphic file (type png)
+<use Figures/NC/NC_Figure18.png>
+Package pdftex.def Info: Figures/NC/NC_Figure18.png  used on input line 425.
+(pdftex.def)             Requested size: 186.53888pt x 122.8537pt.
+./NetworkCausality.tex:432: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.432 ...tml}{Instrumental Variables (W3D5T4)}   }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./NetworkCausality.tex:432: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.432 ...tml}{Instrumental Variables (W3D5T4)}   }
+                                                  
+? 
+
+./NetworkCausality.tex:432: Package xcolor Error: Undefined color `\protect \le
+t \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.432 ...tml}{Instrumental Variables (W3D5T4)}   }
+                                                  
+? 
+./NetworkCausality.tex:467: You can't use `macro parameter character #' in hori
+zontal mode.
+l.467 ...s correlated with $T_{\text{smoking}}$ (#
+                                                  2) but is uncorrelated wit...
+
+? 
+./NetworkCausality.tex:467: You can't use `macro parameter character #' in hori
+zontal mode.
+l.467 ... is uncorrelated with $C_{\text{SES}}$ (#
+                                                  3).  $Z_\text{taxes}$ is a...
+
+? 
+./NetworkCausality.tex:467: You can't use `macro parameter character #' in hori
+zontal mode.
+l.467 ....  $Z_\text{taxes}$ is also observable (#
+                                                  1), so we've satisfied our...
+
+? 
+./NetworkCausality.tex:480: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.480 ...tml}{Instrumental Variables (W3D5T4)}   }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./NetworkCausality.tex:480: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.480 ...tml}{Instrumental Variables (W3D5T4)}   }
+                                                  
+? 
+
+./NetworkCausality.tex:480: Package xcolor Error: Undefined color `\protect \le
+t \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.480 ...tml}{Instrumental Variables (W3D5T4)}   }
+                                                  
+? 
+
+./NetworkCausality.tex:482: Package pgfkeys Error: I do not know the key '/tcb/
+at high level' and I am going to ignore it. Perhaps you misspelled it.
+
+See the pgfkeys package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.482 }
+       
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--521
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 522--524
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--527
+
+ []
+
+./NetworkCausality.tex:534: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.534 ...tml}{Instrumental Variables (W3D5T4)}   }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./NetworkCausality.tex:534: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.534 ...tml}{Instrumental Variables (W3D5T4)}   }
+                                                  
+? 
+
+./NetworkCausality.tex:534: Package xcolor Error: Undefined color `\protect \le
+t \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.534 ...tml}{Instrumental Variables (W3D5T4)}   }
+                                                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 548--549
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 550--551
+
+ []
+
+<Figures/NC/NC_Figure19.png, id=436, 2252.415pt x 1038.88126pt>
+File: Figures/NC/NC_Figure19.png Graphic file (type png)
+<use Figures/NC/NC_Figure19.png>
+Package pdftex.def Info: Figures/NC/NC_Figure19.png  used on input line 557.
+(pdftex.def)             Requested size: 225.2547pt x 103.89421pt.
+
+Overfull \hbox (37.3841pt too wide) in paragraph at lines 557--558
+ [] 
+ []
+
+<Figures/NC/NC_Figure20.png, id=437, 560.0925pt x 415.05063pt>
+File: Figures/NC/NC_Figure20.png Graphic file (type png)
+<use Figures/NC/NC_Figure20.png>
+Package pdftex.def Info: Figures/NC/NC_Figure20.png  used on input line 567.
+(pdftex.def)             Requested size: 112.01651pt x 83.00865pt.
+./NetworkCausality.tex:575: Argument of \XC@col@rlet has an extra }.
+<inserted text> 
+                \par 
+l.575 ...tml}{Instrumental Variables (W3D5T4)}   }
+                                                  
+? 
+Runaway argument?
+{tcbcolframe}{\\href  }\def \reserved@b {\\href  [{}]}\futurelet \@let@token \E
+TC.
+./NetworkCausality.tex:575: Paragraph ended before \XC@col@rlet was complete.
+<to be read again> 
+                   \par 
+l.575 ...tml}{Instrumental Variables (W3D5T4)}   }
+                                                  
+? 
+
+./NetworkCausality.tex:575: Package xcolor Error: Undefined color `\protect \le
+t \reserved@d =[\def \par '.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.575 ...tml}{Instrumental Variables (W3D5T4)}   }
+                                                  
+? 
+<Figures/NC/NC_Figure21.png, id=439, 704.13063pt x 319.69438pt>
+File: Figures/NC/NC_Figure21.png Graphic file (type png)
+<use Figures/NC/NC_Figure21.png>
+Package pdftex.def Info: Figures/NC/NC_Figure21.png  used on input line 582.
+(pdftex.def)             Requested size: 140.82362pt x 63.93773pt.
+<Figures/NC/NC_Figure22.png, id=440, 1065.9825pt x 315.1775pt>
+File: Figures/NC/NC_Figure22.png Graphic file (type png)
+<use Figures/NC/NC_Figure22.png>
+Package pdftex.def Info: Figures/NC/NC_Figure22.png  used on input line 596.
+(pdftex.def)             Requested size: 170.56068pt x 50.42943pt.
+<Figures/NC/NC_Figure23.png, id=441, 596.72937pt x 415.05063pt>
+File: Figures/NC/NC_Figure23.png Graphic file (type png)
+<use Figures/NC/NC_Figure23.png>
+Package pdftex.def Info: Figures/NC/NC_Figure23.png  used on input line 602.
+(pdftex.def)             Requested size: 119.34375pt x 83.00865pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 429--61
+
+ []
+
+
+Overfull \vbox (14.23676pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (14.23676pt too high) has occurred while \output is active []
+
+
+[23 <./Figures/NC/NC_Figure18.png>] [24 <./Figures/NC/NC_Figure19.png> <./Figur
+es/NC/NC_Figure20.png> <./Figures/NC/NC_Figure21.png> <./Figures/NC/NC_Figure22
+.png> <./Figures/NC/NC_Figure23.png>] (./main.aux (./BayesianDecisions.aux)
+(./HiddenDynamics.aux) (./ReinforcementLearning.aux) (./NetworkCausality.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 42311 strings out of 478994
+ 844101 string characters out of 5858185
+ 1818931 words of memory out of 5000000
+ 58930 multiletter control sequences out of 15000+600000
+ 600098 words of font info for 68 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 94i,20n,100p,1143b,1681s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/raleway/a_2bcjq6.enc}{/us
+r/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/
+local/texlive/2021/texmf-dist/fonts/enc/dvips/raleway/a_bzmckq.enc}</usr/local/
+texlive/2021/texmf-dist/fonts/type1/impallari/raleway/Raleway-Bold.pfb></usr/lo
+cal/texlive/2021/texmf-dist/fonts/type1/impallari/raleway/Raleway-Italic.pfb></
+usr/local/texlive/2021/texmf-dist/fonts/type1/impallari/raleway/Raleway-Regular
+.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cm
+ex7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.
+pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb
+></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></
+usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></us
+r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/
+local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/lo
+cal/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb>
+Output written on main.pdf (24 pages, 7287218 bytes).
+PDF statistics:
+ 535 PDF objects out of 1000 (max. 8388607)
+ 349 compressed objects within 4 object streams
+ 96 named destinations out of 1000 (max. 500000)
+ 467 words of extra memory for PDF output out of 10000 (max. 10000000)
+
