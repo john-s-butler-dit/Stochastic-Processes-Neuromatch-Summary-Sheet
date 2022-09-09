@@ -15,7 +15,8 @@ with the figures in the FIGURES folder.
 All code was written using Overleaf below is the an example page.
 
 
-![W2D2_Linear_Systems](W2D2_Linear_Systems_Page_1.png)
+
+![W3D1_Bayesian_Decisions_Page_1](https://user-images.githubusercontent.com/30832003/182695125-dba0983c-6623-44d1-8b12-51417b7591b9.png)
 
 
 
